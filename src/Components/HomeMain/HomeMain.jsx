@@ -54,7 +54,7 @@ const HomeMain = () => {
                         className="text-[20px] sm:text-[28px] md:text-[36px] lg:text-[40px] font-medium max-w-xl mb-6 md:mb-16 mx-auto md:mx-0"
                         style={{ lineHeight: "1.1" }}
                     >
-                        Arony Farms makes farmland ownership effortless, transparent, and rewarding.
+                        Arony Farms makes <br /> farmland ownership effortless, transparent, and rewarding.
                     </p>
                 </div>
             </div>
