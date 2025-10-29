@@ -102,14 +102,24 @@ const AboutUs1 = () => {
                                             Arony Coffee Farm
                                         </h2>
                                         <p className="text-[14px] sm:text-[16px] md:text-[20px] font-normal text-white leading-tight">
-                                            Arony Coffee Farm offers investors a rare opportunity to  <br />
-                                            own and profit from managed coffee cultivation in India's <br />
-                                            most sought-after agro-forestry corridor.
+                                            <span className="block sm:hidden">
+                                                Arony Coffee Farm offers investors a rare opportunity to own and profit from managed coffee cultivation in India's most sought-after agro-forestry corridor.
+                                            </span>
+                                            <span className="hidden sm:block">
+                                                Arony Coffee Farm offers investors a rare opportunity to <br />
+                                                own and profit from managed coffee cultivation in India's <br />
+                                                most sought-after agro-forestry corridor.
+                                            </span>
                                         </p>
                                         <p className="text-[14px] sm:text-[16px] md:text-[20px] font-normal text-white leading-tight">
-                                            Our expert team ensures 100% hassle-free, ecologically  <br />
-                                            resilient plantation management and transparent reporting <br />
-                                            from the day you invest to the day of harvest.
+                                            <span className="block sm:hidden">
+                                                Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.
+                                            </span>
+                                            <span className="hidden sm:block">
+                                                Our expert team ensures 100% hassle-free, ecologically <br />
+                                                resilient plantation management and transparent reporting <br />
+                                                from the day you invest to the day of harvest.
+                                            </span>
                                         </p>
                                         <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-full inline-flex items-center gap-2 transition-colors mt-3 sm:mt-4">
                                             <img
