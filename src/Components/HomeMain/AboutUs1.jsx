@@ -102,14 +102,14 @@ const AboutUs1 = () => {
                                             Arony Coffee Farm
                                         </h2>
                                         <p className="text-[14px] sm:text-[16px] md:text-[20px] font-normal text-white leading-tight">
-                                            Arony Coffee Farm offers investors a rare opportunity to own and <br />
-                                            profit from managed coffee cultivation in India's most sought-after <br />
-                                            agro-forestry corridor.
+                                            Arony Coffee Farm offers investors a rare opportunity to  <br />
+                                            own and profit from managed coffee cultivation in India's <br />
+                                            most sought-after agro-forestry corridor.
                                         </p>
                                         <p className="text-[14px] sm:text-[16px] md:text-[20px] font-normal text-white leading-tight">
-                                            With coffee prices rising globally, 100% hassle-free, ethically <br />
-                                            resilient plantation management and transparent reporting from the <br />
-                                            day you invest to the day of harvest.
+                                            Our expert team ensures 100% hassle-free, ecologically  <br />
+                                            resilient plantation management and transparent reporting <br />
+                                            from the day you invest to the day of harvest.
                                         </p>
                                         <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-full inline-flex items-center gap-2 transition-colors mt-3 sm:mt-4">
                                             <img
