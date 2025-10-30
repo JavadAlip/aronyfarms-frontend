@@ -3,6 +3,7 @@ import { Menu, X, ChevronDown, Plus } from "lucide-react";
 import logo from "../../assets/logo1.png";
 import navbarLast from "../../assets/Container.png";
 import { Link } from "react-router-dom";
+import leaf from "../../assets/leaf.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,15 +65,19 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="flex items-center">
+          <div className="hidden md:flex items-center">
             <Link to="/">
-              <img
-                src={navbarLast}
-                alt="Right"
-                className="h-12 w-auto hidden md:block"
-              />
+              <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-white/30">
+                <img
+                  src={leaf}
+                  alt="leaf icon"
+                  className="w-5 h-5 object-contain"
+                />
+                <span className="text-[16px]">Explore Projects</span>
+              </button>
             </Link>
           </div>
+
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
