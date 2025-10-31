@@ -18,12 +18,17 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex space-x-8 font-medium text-white">
-            <a href="#" className="hover:text-green-400 text-[16px]">
+          
+            <Link
+              to="/"
+              className="hover:text-green-400 text-[16px]">
               Home
-            </a>
-            <a href="#" className="hover:text-green-400 text-[16px]">
+            </Link>
+            <Link
+              to="/about"
+              className="hover:text-green-400 text-[16px]">
               About Us
-            </a>
+            </Link>
 
             <div
               className="relative"
