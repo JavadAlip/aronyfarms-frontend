@@ -21,10 +21,16 @@ const WhyChooseUs = () => {
                         />
                         <span className="text-black text-[16px] font-medium">Why choose us</span>
                     </div>
-                    <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-black leading-tight mt-4">
-                        Invest with confidence.<br />
-                        Grow with nature.
-                    </h2>
+                    <div className="flex justify-center items-center text-center px-4">
+                        <div className="max-w-3xl text-left">
+                            <h2 className="text-[28px] sm:text-[36px] md:text-[40px] font-medium text-black leading-tight mt-4">
+                                Invest with confidence.<br />
+                                Grow with nature.
+                            </h2>
+                        </div>
+                    </div>
+
+
                 </div>
 
                 {/* Features Grid */}
