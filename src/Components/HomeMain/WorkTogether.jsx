@@ -50,7 +50,7 @@ const WorkTogether = () => {
             {/* Right Section */}
             <div className="relative flex flex-col h-full">
               {/* Scrollable Image Row */}
-              <div className="flex-1 overflow-x-auto overflow-y-hidden scrollbar-hide px-4 sm:px-6 scroll-smooth">
+             <div className="flex-1 overflow-x-auto overflow-y-hidden scrollbar-hide px-4 sm:px-6 scroll-smooth">
                 <div className="flex h-full gap-5 sm:gap-8">
                   {images.map((image) => (
                     <div
