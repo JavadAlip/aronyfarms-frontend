@@ -92,7 +92,7 @@ const AboutMain1 = () => {
                                             management and transparent reporting from the day you invest to the day of harvest.
                                         </p>
 
-                                        <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-5 sm:px-7 py-2.5 sm:py-3.5 rounded-full inline-flex items-center gap-2 transition-colors">
+                                        <button className="bg-[#035925] text-white font-medium px-5 sm:px-7 py-2.5 sm:py-3.5 rounded-full inline-flex items-center gap-2 transition-colors">
                                             <img
                                                 src={leaf}
                                                 alt="Leaf icon"
