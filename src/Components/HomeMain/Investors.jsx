@@ -81,8 +81,8 @@ const Investors = () => {
                 {/* Horizontal Scroll Container */}
                 <div className="relative">
                     {/* Gradient Overlays */}
-                    <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-neutral-50 to-transparent z-10 pointer-events-none hidden sm:block"></div>
-                    <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-neutral-50 to-transparent z-10 pointer-events-none hidden sm:block"></div>
+                    <div className="absolute left-0 top-0 bottom-0 w-16  to-transparent z-10 pointer-events-none hidden sm:block"></div>
+                    <div className="absolute right-0 top-0 bottom-0 w-16  to-transparent z-10 pointer-events-none hidden sm:block"></div>
 
                     {/* Scrollable Content */}
                     <div className="overflow-x-auto scrollbar-hide pb-4">

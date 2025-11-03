@@ -15,9 +15,9 @@ const WorkTogether = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-br py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+    <div className=" py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gradient-to-br from-orange-200 to-orange-300 rounded-md shadow-2xl overflow-hidden">
+        <div className="bg-gradient-to-br from-orange-200 to-orange-300 rounded-md  overflow-hidden">
 
           {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-20 min-h-[400px] lg:min-h-[450px]">
@@ -40,7 +40,7 @@ const WorkTogether = () => {
                 {/* CTA Button */}
                 <div className="flex justify-center lg:justify-start">
                   <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors">
-                    <img src={leaf} alt="leaf icon" className="w-5 h-5 object-contain" />
+                    <img src={leaf} alt="leaf icon" className="w-5 h-7 object-contain" />
                     <span>Let's work together</span>
                   </button>
                 </div>

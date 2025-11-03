@@ -1,3 +1,4 @@
+import React from 'react';
 import youtube from '../../assets/youtube.png'
 import instagram from '../../assets/instagram.png'
 import facebook from '../../assets/facebook.png'
@@ -5,9 +6,9 @@ import logo from '../../assets/logoFooter.png'
 
 const Footer = () => {
   const footerLinks = {
-    home: [{ name: 'Home', href: '#' }],
+    home: [{ name: 'Home', href: '/' }],
     company: [
-      { name: 'About Us', href: '#' },
+      { name: 'About Us', href: '/about' },
       { name: 'Our Team', href: '#' }
     ],
     projects: [
@@ -44,24 +45,21 @@ const Footer = () => {
                 <img
                   src={logo}
                   alt="Arony Farms Logo"
-                  className="w-48 h-auto object-contain"
+                  className="w-40 sm:w-48 md:w-56 lg:w-64 h-auto object-contain"
                 />
               </div>
               {/* <p className="text-orange-500 font-medium text-sm">You Own We Farm</p> */}
             </div>
 
             {/* Tagline */}
-            <div className="mt-8">
-              <h3 className="text-black font-bold text-[20px] sm:text-2xl leading-tight mb-2">
-                Own the Land.
-              </h3>
-              <h3 className="text-black font-bold text-[20px] sm:text-2xl leading-tight">
-                We Farm It Naturally.
-              </h3>
-            </div>
+            <h3 className="text-black font-bold text-[18px] sm:text-[22px] md:text-[24px] lg:text-[28px] leading-tight mb-4 sm:mb-3 md:mb-2 whitespace-normal sm:whitespace-normal lg:whitespace-nowrap">
+              You own<br />
+              We Farm and Manage <br />
+              You Enjoy the Returns and Green Legacy
+            </h3>
 
             {/* Social Links */}
-            <div className="flex items-center gap-4 ">
+            <div className="flex items-center gap-2 sm:gap-3 md:gap-2">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
@@ -71,23 +69,22 @@ const Footer = () => {
                   <img
                     src={social.icon}
                     alt={social.name}
-                    className="w-24 h-24 object-contain"
+                    className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain"
                   />
-                  
                 </a>
               ))}
             </div>
           </div>
 
-          {/* Home Links */}
-          <div>
-            <h4 className="text-[#002C11] font-bold text-[20px] mb-2">Home</h4>
-            <ul className="space-y-2">
+
+          <div className="ml-0 lg:ml-44">
+            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Home</h4>
+            <ul className="space-y-1.5 sm:space-y-2">
               {footerLinks.home.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-sm transition-colors"
+                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
                   >
                     {link.name}
                   </a>
@@ -96,15 +93,16 @@ const Footer = () => {
             </ul>
           </div>
 
+
           {/* Company Links */}
-          <div>
-            <h4 className="text-[#002C11] font-bold text-[20px] mb-2">Company</h4>
-            <ul className="space-y-2">
+          <div className='ml-0 lg:ml-24'>
+            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Company</h4>
+            <ul className="space-y-1.5 sm:space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-sm transition-colors"
+                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
                   >
                     {link.name}
                   </a>
@@ -114,14 +112,14 @@ const Footer = () => {
           </div>
 
           {/* Projects Links */}
-          <div>
-            <h4 className="text-[#002C11] font-bold text-[20px] mb-2">Projects</h4>
-            <ul className="space-y-2">
+          <div className='ml-0 lg:ml-16'>
+            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Projects</h4>
+            <ul className="space-y-1.5 sm:space-y-2">
               {footerLinks.projects.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-sm transition-colors"
+                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
                   >
                     {link.name}
                   </a>
@@ -131,14 +129,14 @@ const Footer = () => {
           </div>
 
           {/* Information Links */}
-          <div>
-            <h4 className="text-[#002C11] font-bold text-[20px] mb-2">Information</h4>
-            <ul className="space-y-2">
+          <div className='ml-0 lg:ml-6'>
+            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Information</h4>
+            <ul className="space-y-1.5 sm:space-y-2">
               {footerLinks.information.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-[#585858] hover:text-green-700 text-[16px] font-medium transition-colors"
+                    className="text-[#585858] hover:text-green-700 text-[14px] sm:text-[15px] lg:text-[16px] font-medium transition-colors"
                   >
                     {link.name}
                   </a>
@@ -150,10 +148,10 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-[#585858] text-[16px] font-normal text-center sm:text-left">
+          <p className="text-[#585858] text-[14px] sm:text-[15px] lg:text-[16px] font-normal text-center sm:text-left">
             © Arony Farms. All rights reserved.
           </p>
-          <p className="text-[#585858] text-[14px] text-center sm:text-right">
+          <p className="text-[#585858] text-[13px] sm:text-[14px] text-center sm:text-right">
             Designed by <span className="text-[#035925] font-normal">KBs.</span>
           </p>
         </div>

@@ -1,4 +1,5 @@
 import leafgrn from "../../assets/leaf-grn.png";
+import pillarss from "../../assets/pillars.png";
 
 const KeyPillars = () => {
   const pillars = [
@@ -34,13 +35,15 @@ const KeyPillars = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80"
+          src={pillarss}
           alt="Farm landscape background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/30"></div>
       </div>
+
+
 
       {/* Content */}
       <div className="relative z-10 py-12 px-4 sm:px-6 lg:px-8">

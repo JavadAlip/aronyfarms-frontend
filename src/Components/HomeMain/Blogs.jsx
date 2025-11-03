@@ -76,7 +76,7 @@ const Blogs = () => {
                     {blogs.slice(0, 2).map((blog) => (
                         <div
                             key={blog.id}
-                            className="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white"
+                            className="group relative rounded-3xl overflow-hidden shadow-md transition-all duration-300 bg-white"
                         >
                             {/* Image */}
                             <div className="relative h-64 sm:h-72 overflow-hidden">
@@ -135,16 +135,20 @@ const Blogs = () => {
 
                     {/* Third blog */}
                     <div className="lg:col-span-2">
-                        <div className="group relative rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 bg-white">
+                        <div className="group relative rounded-3xl overflow-hidden shadow-md  bg-white">
                             <div className="relative h-64 sm:h-80 lg:h-64 overflow-hidden">
                                 <img
                                     src={blogs[2].image}
                                     alt={blogs[2].title}
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                 />
+
+                                {/* Black overlay with slight opacity */}
+                                <div className="absolute inset-0 bg-black/35"></div>
+
                                 <div className="absolute top-4 left-4">
                                     <span
-                                        className={`backdrop-blur-md bg-white/20 text-white text-sm font-medium px-4 py-2 rounded-full border border-white/30`}
+                                        className="backdrop-blur-md bg-white/20 text-white text-sm font-medium px-4 py-2 rounded-full border border-white/30"
                                     >
                                         {blogs[2].category}
                                     </span>
