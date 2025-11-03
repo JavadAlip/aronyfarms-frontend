@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X, ChevronDown, Plus } from "lucide-react";
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logo2.png";
 import navbarLast from "../../assets/Container.png";
 import { Link } from "react-router-dom";
 import leaf from "../../assets/leaf.png";
@@ -10,11 +10,11 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 bg-green-700">
+    <nav className="w-full fixed top-0 left-0 z-50 bg-[#035925]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="h-10 w-auto" />
+            <img src={logo} alt="Logo" className="h-16 w-auto" />
           </div>
 
           <div className="hidden md:flex space-x-8 font-medium text-white">
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center">
             <Link to="/">
-              <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-white/30">
+              <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
                 <img
                   src={leaf}
                   alt="leaf icon"

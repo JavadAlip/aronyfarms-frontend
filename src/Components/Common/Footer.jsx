@@ -45,7 +45,7 @@ const Footer = () => {
                 <img
                   src={logo}
                   alt="Arony Farms Logo"
-                  className="w-40 sm:w-48 md:w-56 lg:w-64 h-auto object-contain"
+                  className="w-48 sm:w-48 md:w-56 lg:w-72 h-auto object-contain"
                 />
               </div>
               {/* <p className="text-orange-500 font-medium text-sm">You Own We Farm</p> */}
@@ -69,7 +69,7 @@ const Footer = () => {
                   <img
                     src={social.icon}
                     alt={social.name}
-                    className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 object-contain"
+                    className="w-12 h-12 sm:w-24 sm:h-24 md:w-20 md:h-20 lg:w-28 lg:h-28 object-contain"
                   />
                 </a>
               ))}
@@ -88,7 +88,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                        className="text-[#585858] hover:text-green-600 text-[14px] lg:text-[16px] font-medium sm:text-sm transition-colors"
                       >
                         {link.name}
                       </a>
@@ -105,7 +105,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                        className="text-[#585858] hover:text-green-600 text-[14px] lg:text-[16px] font-medium sm:text-sm transition-colors"
                       >
                         {link.name}
                       </a>
@@ -122,7 +122,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                        className="text-[#585858] hover:text-green-600 text-[14px] sm:text-sm lg:text-[16px] font-medium transition-colors"
                       >
                         {link.name}
                       </a>
@@ -139,7 +139,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-[#585858] hover:text-green-700 text-[14px] sm:text-[15px] lg:text-[16px] font-medium transition-colors"
+                        className="text-[#585858] hover:text-green-600 text-[14px] sm:text-[15px] lg:text-[16px] font-medium transition-colors"
                       >
                         {link.name}
                       </a>

@@ -72,7 +72,7 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center">
             <Link to="/">
-              <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-white/30">
+              <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
                 <img
                   src={leaf}
                   alt="leaf icon"

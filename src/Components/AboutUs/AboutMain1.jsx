@@ -1,5 +1,5 @@
 import React from 'react';
-import layerMain from '../../assets/layer-main.png';
+import layerMain from '../../assets/layer-main1.png';
 import leaf from "../../assets/leaf.png";
 import leafgrn from "../../assets/leaf-grn.png";
 import leafsgrn from "../../assets/leafs.png";
@@ -63,6 +63,8 @@ const AboutMain1 = () => {
                                     alt="Arony Coffee Farm"
                                     className="w-full h-full object-cover"
                                 />
+                                {/* Slight black opacity overlay */}
+                                <div className="absolute inset-0 bg-black/30"></div>
 
                                 {/* Overlay */}
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 z-20">
