@@ -152,7 +152,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Footer */}
-        <div className="pt-6 border-t border-gray-950 flex flex-col  sm:flex-row justify-between items-center gap-4">
+        <div className="pt-6 border-t border-gray-400 flex flex-col  sm:flex-row justify-between items-center gap-4">
           <p className="text-[#585858] text-[14px] sm:text-[15px] lg:text-[16px] font-normal text-center sm:text-left">
             © Arony Farms. All rights reserved.
           </p>
