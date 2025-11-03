@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 -mb-1">
 
           {/* Logo and Tagline - Takes 2 columns on large screens */}
           <div className="lg:col-span-2">
@@ -59,7 +59,7 @@ const Footer = () => {
             </h3>
 
             {/* Social Links */}
-            <div className="flex items-center gap-2 sm:gap-3 md:gap-2">
+            <div className="flex items-center gap-3 pt-4 sm:pt-6 md:pt-8 lg:pt-10 sm:gap-3 md:gap-2">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
@@ -69,85 +69,90 @@ const Footer = () => {
                   <img
                     src={social.icon}
                     alt={social.name}
-                    className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain"
+                    className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 object-contain"
                   />
                 </a>
               ))}
             </div>
           </div>
 
+          {/* Navigation Sections - Stacked on mobile, grid on larger screens */}
+          <div className="col-span-1 md:col-span-2 lg:col-span-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-6 lg:gap-0">
+              
+              {/* Home Links */}
+              <div className="ml-0 lg:ml-44">
+                <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Home</h4>
+                <ul className="space-y-1.5 sm:space-y-2">
+                  {footerLinks.home.map((link) => (
+                    <li key={link.name}>
+                      <a
+                        href={link.href}
+                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-          <div className="ml-0 lg:ml-44">
-            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Home</h4>
-            <ul className="space-y-1.5 sm:space-y-2">
-              {footerLinks.home.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+              {/* Company Links */}
+              <div className='ml-0 lg:ml-24'>
+                <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Company</h4>
+                <ul className="space-y-1.5 sm:space-y-2">
+                  {footerLinks.company.map((link) => (
+                    <li key={link.name}>
+                      <a
+                        href={link.href}
+                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
+              {/* Projects Links */}
+              <div className='ml-0 lg:ml-16'>
+                <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Projects</h4>
+                <ul className="space-y-1.5 sm:space-y-2">
+                  {footerLinks.projects.map((link) => (
+                    <li key={link.name}>
+                      <a
+                        href={link.href}
+                        className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-          {/* Company Links */}
-          <div className='ml-0 lg:ml-24'>
-            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Company</h4>
-            <ul className="space-y-1.5 sm:space-y-2">
-              {footerLinks.company.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Projects Links */}
-          <div className='ml-0 lg:ml-16'>
-            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Projects</h4>
-            <ul className="space-y-1.5 sm:space-y-2">
-              {footerLinks.projects.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-gray-600 hover:text-green-600 text-[14px] sm:text-sm transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Information Links */}
-          <div className='ml-0 lg:ml-6'>
-            <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Information</h4>
-            <ul className="space-y-1.5 sm:space-y-2">
-              {footerLinks.information.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-[#585858] hover:text-green-700 text-[14px] sm:text-[15px] lg:text-[16px] font-medium transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
+              {/* Information Links */}
+              <div className='ml-0 lg:ml-6'>
+                <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Information</h4>
+                <ul className="space-y-1.5 sm:space-y-2">
+                  {footerLinks.information.map((link) => (
+                    <li key={link.name}>
+                      <a
+                        href={link.href}
+                        className="text-[#585858] hover:text-green-700 text-[14px] sm:text-[15px] lg:text-[16px] font-medium transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Bottom Footer */}
-        <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="pt-6 border-t border-gray-950 flex flex-col  sm:flex-row justify-between items-center gap-4">
           <p className="text-[#585858] text-[14px] sm:text-[15px] lg:text-[16px] font-normal text-center sm:text-left">
             © Arony Farms. All rights reserved.
           </p>
