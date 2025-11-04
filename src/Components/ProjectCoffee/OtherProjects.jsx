@@ -6,13 +6,13 @@ import otherprjct from "../../assets/otherprjct.png";
 const OtherProjects = () => {
   const projects = [
     {
-      title: 'Arony Sandalwood Farm',
+      title: 'Arony Coffee Farm',
       image: otherprjct,
       description1: 'Arony Sandalwood Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India\'s most sought-after agroforestry corridor.',
       description2: 'Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.'
     },
     {
-      title: 'Arony Sandalwood Farm',
+      title: 'Arony Coffee Farm',
       image: otherprjct,
       description1: 'Arony Sandalwood Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India\'s most sought-after agroforestry corridor.',
       description2: 'Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.'

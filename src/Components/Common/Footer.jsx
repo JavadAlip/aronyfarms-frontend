@@ -12,11 +12,9 @@ const Footer = () => {
       { name: 'Our Team', href: '#' }
     ],
     projects: [
-      { name: 'Sandalwood', href: '#' },
-      { name: 'Project 1', href: '#' },
-      { name: 'Project 2', href: '#' },
-      { name: 'Project 3', href: '#' },
-      { name: 'Project 4', href: '#' }
+      { name: 'Sandalwood', href: '/project-sandalwood' },
+      { name: 'Mango', href: '/project-mango' },
+      { name: 'Coffee', href: '/project-coffee' },
     ],
     information: [
       { name: 'Blog', href: '#' },
@@ -79,7 +77,7 @@ const Footer = () => {
           {/* Navigation Sections - Stacked on mobile, grid on larger screens */}
           <div className="col-span-1 md:col-span-2 lg:col-span-4">
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 sm:gap-8 md:gap-6 lg:gap-0">
-              
+
               {/* Home Links */}
               <div className="ml-0 lg:ml-44">
                 <h4 className="text-[#002C11] font-bold text-[18px] sm:text-[19px] lg:text-[20px] mb-2 sm:mb-3 lg:mb-2">Home</h4>
