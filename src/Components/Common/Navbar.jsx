@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex space-x-8 font-medium text-white">
-          
+
             <Link
               to="/"
               className="hover:text-green-400 text-[16px]">
@@ -136,7 +136,14 @@ const Navbar = () => {
 
           <div className="flex justify-center py-3">
             <Link to="/">
-              <img src={navbarLast} alt="Right" className="h-10 w-auto" />
+              <button className="bg-gray-400 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
+                <img
+                  src={leaf}
+                  alt="leaf icon"
+                  className="w-5 h-5 object-contain"
+                />
+                <span className="text-[16px]">Explore Projects</span>
+              </button>
             </Link>
           </div>
         </div>

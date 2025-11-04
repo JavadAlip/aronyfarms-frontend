@@ -50,7 +50,12 @@ const AboutUs = () => {
                     {/* Right Column */}
                     <div className="space-y-6">
                         <p className="text-gray-700 leading-relaxed">
-                            At Arony Farms, we redefine what it means to own agricultural land. Our model combines the security of land ownership with the benefits of expert-managed organic farming. You invest in fertile, eco-sustainable land, and we ensure your farm thrives — naturally, profitably, and ethically.
+                            {/* At Arony Farms, we redefine what it means to own agricultural land. Our model combines the security of land ownership with the benefits of expert-managed organic farming. You invest in fertile, eco-sustainable land, and we ensure your farm thrives — naturally, profitably, and ethically. */}
+                            From Engineering Dreams to Cultivating Nature Team of engineers  driven by logic, deadlines, and city lights. Our days were filled with code, calculations, and caffeine. But amidst the race to build the future, we realized we were losing touch with something far more essential — Nature.
+                            The peace of open skies. The rhythm of rain. The quiet satisfaction of watching something grow.
+                            That realization sparked a transformation. One by one, we traded our desks for the fields, our blueprints for soil maps, and our deadlines for harvest seasons. What started as a shared weekend escape into the countryside soon became a mission — to build a bridge between urban lives and the healing power of the land.
+                            And so, Arony was born  a managed farmland company created by engineers who believe that innovation and nature can thrive together.
+
                         </p>
 
                         <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors">

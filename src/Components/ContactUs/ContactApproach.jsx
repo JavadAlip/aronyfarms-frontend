@@ -1,11 +1,11 @@
 import React from 'react'
-import approach1 from "../../assets/approach1.png";
+import approach1 from "../../assets/apporach4.png";
 import approach2 from "../../assets/approach2.png";
 import approach3 from "../../assets/approach3.png";
 import leaf from "../../assets/leaf.png";
 import leafgrn from "../../assets/leaf-grn.png";
 
-const Approach = () => {
+const ContactApproach = () => {
   const features = [
     {
       title: 'Precision farming',
@@ -112,4 +112,4 @@ const Approach = () => {
   )
 }
 
-export default Approach;
+export default ContactApproach;

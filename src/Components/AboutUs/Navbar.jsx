@@ -135,7 +135,14 @@ const Navbar = () => {
 
           <div className="flex justify-center py-3">
             <Link to="/">
-              <img src={navbarLast} alt="Right" className="h-10 w-auto" />
+              <button className="bg-[#4BA625] text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
+                <img
+                  src={leaf}
+                  alt="leaf icon"
+                  className="w-5 h-5 object-contain"
+                />
+                <span className="text-[16px]">Explore Projects</span>
+              </button>
             </Link>
           </div>
         </div>
