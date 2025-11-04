@@ -34,7 +34,7 @@ const OtherProjects = () => {
               <span className="text-black text-[16px] font-medium">Other Projects</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
+            <h2 className="text-[34px] sm:text-4xl lg:text-[34px] font-medium text-black">
               Check Other Projects
             </h2>
           </div>
