@@ -1,6 +1,7 @@
 import React from "react";
-import contactmain from "../../assets/contactmain.png";
+import contactmain from "../../assets/contactMain.png";
 import leafgrn from "../../assets/leaf-grn.png";
+
 
 const ContactMain = () => {
   return (
