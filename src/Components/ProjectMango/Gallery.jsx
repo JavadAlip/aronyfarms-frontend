@@ -2,14 +2,14 @@ import React, { useState, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
 import proGlyMango1 from "../../assets/mango10.png";
 import proGlyMango2 from "../../assets/mango9.png";
-import proGlyMango3 from "../../assets/testmango1.jpg";
-import proGlyMango4 from "../../assets/testmango2.jpg";
-import proGlyMango5 from "../../assets/testmango3.jpg";
-import proGlyMango6 from "../../assets/testmango4.jpg";
-import proGlyMango7 from "../../assets/testmango5.jpg";
-import proGlyMango8 from "../../assets/testmango6.jpg";
-import proGlyMango9 from "../../assets/testmango7.jpg";
-import proGlyMango10 from "../../assets/testmango8.jpg";
+import proGlyMango3 from "../../assets/mango10.png";
+import proGlyMango4 from "../../assets/mango9.png";
+import proGlyMango5 from "../../assets/mango10.png";
+import proGlyMango6 from "../../assets/mango9.png";
+import proGlyMango7 from "../../assets/mango10.png";
+import proGlyMango8 from "../../assets/mango9.png";
+import proGlyMango9 from "../../assets/mango10.png";
+import proGlyMango10 from "../../assets/mango9.png";
 
 import leafgrn from "../../assets/leaf-grn.png";
 
