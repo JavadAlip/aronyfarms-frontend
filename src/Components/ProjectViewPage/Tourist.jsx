@@ -64,7 +64,7 @@ const Tourist = () => {
         <div className="flex flex-col md:flex-row gap-10 md:gap-14 lg:gap-20">
           {/* Image Section */}
           <div className="w-full md:w-1/2">
-            <div className="relative rounded-2xl overflow-hidden shadow-lg h-[400px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+            <div className="relative overflow-hidden shadow-lg h-[400px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
               <img
                 src={currentPlace.image}
                 alt={currentPlace.title}
@@ -75,7 +75,7 @@ const Tourist = () => {
 
           {/* Content Section */}
           <div className="w-full md:w-1/2 flex flex-col justify-center">
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-28">
               <div className="flex items-center gap-2 border bg-white border-gray-300 rounded-full px-4 py-2 hover:border-green-500 transition-colors w-fit">
                 <img
                   src={leafgrn}
@@ -96,25 +96,9 @@ const Tourist = () => {
             </h3>
 
             {/* Description */}
-            <p className="text-[20px] sm:text-[22px] lg:text-[24px] text-[#585858] leading-tight">
+            <p className="text-[20px] sm:text-[22px] lg:text-[20px] text-[#585858] leading-tight">
               {currentPlace.description}
             </p>
-
-            {/* Pagination Dots */}
-            {/* <div className="flex gap-2 mt-6 md:mt-8">
-              {touristPlaces.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`h-2 rounded-full transition-all ${
-                    index === currentIndex
-                      ? 'w-8 bg-green-600'
-                      : 'w-2 bg-gray-300 hover:bg-gray-400'
-                  }`}
-                  aria-label={`Go to slide ${index + 1}`}
-                />
-              ))}
-            </div> */}
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const AreaLayout = () => {
   ]
 
   return (
-    <div className="bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#F4F4F4] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header Section */}
         <div className=" gap-8 items-start">

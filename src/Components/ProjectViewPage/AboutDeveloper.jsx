@@ -45,7 +45,7 @@ const AboutDeveloper = () => {
 
           {/* Right: Description */}
           <div className="flex-1 max-w-md">
-            <p className="text-[#585858] text-[24px] leading-tight">
+            <p className="text-[#585858] text-[20px] leading-tight">
               Lorem ipsum dolor sit amet consectetur. Molestie gravida et arcu integer sit sit at vitae. Et nibh quisque dui eget. Odio massa ultrices consequat mi bibendum ut sit lorem etiam. Nisi consequat porttitor praesent sociis lobortis eget metus. Pulvinar convallis quis viverra
             </p>
           </div>

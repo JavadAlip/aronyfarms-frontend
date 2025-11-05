@@ -1,6 +1,7 @@
 import together1 from '../../assets/together1.png'
 import leaf from "../../assets/leaf.png";
 
+
 const Together = () => {
   const features = [
     { icon: leaf, label: "Sustainable" },
