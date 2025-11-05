@@ -12,9 +12,10 @@ const HomeMain = () => {
         bg-cover 
         bg-center 
         font-instrument 
-        h-[70vh]          /* Default mobile height */
-        sm:h-[80vh]       /* Slightly taller on small tablets */
-        md:h-screen       /* Full screen height on medium & larger */
+        min-h-[90vh]        /* Ensure enough height on mobile */
+        md:h-screen         /* Full height for desktop */
+        flex 
+        items-center
       "
       style={{ backgroundImage: `url(${img})` }}
     >
@@ -22,27 +23,21 @@ const HomeMain = () => {
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Content Wrapper */}
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-start h-full px-6 md:px-16 text-white py-12 md:py-0">
+      <div className="relative z-10 flex flex-col md:flex-row justify-between items-start w-full px-6 md:px-16 text-white py-12 md:py-0">
 
         {/* LEFT SECTION */}
-        <div className="flex flex-col justify-end items-start gap-6 md:w-1/2 h-full pb-10 md:pb-20 order-2 md:order-1 text-center md:text-left mx-auto md:mx-0">
+        <div className="flex flex-col justify-end items-start gap-6 md:w-1/2 pb-10 md:pb-20 order-2 md:order-1 text-center md:text-left mx-auto md:mx-0">
           {/* Badges */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 text-[14px] md:text-[16px] font-medium">
-            <span className="flex items-center gap-2 px-3 py-1">
-              <img src={leaf} alt="leaf" className="w-3 h-5" />
-              Sustainable
-            </span>
-            <span className="flex items-center gap-2 px-3 py-1">
-              <img src={leaf} alt="leaf" className="w-3 h-5" />
-              Transparent
-            </span>
-            <span className="flex items-center gap-2 px-3 py-1">
-              <img src={leaf} alt="leaf" className="w-3 h-5" />
-              Impactful
-            </span>
+            {["Sustainable", "Transparent", "Impactful"].map((item, idx) => (
+              <span key={idx} className="flex items-center gap-2 px-3 py-1">
+                <img src={leaf} alt="leaf" className="w-3 h-5" />
+                {item}
+              </span>
+            ))}
           </div>
 
-          <h1 className="text-[22px] sm:text-[26px] md:text-[32px] lg:text-[40px] font-medium max-w-2xl leading-snug md:leading-tight text-center md:text-left mx-auto md:mx-0">
+          <h1 className="text-[24px] sm:text-[28px] md:text-[36px] lg:text-[40px] font-medium max-w-2xl leading-snug md:leading-tight text-center md:text-left mx-auto md:mx-0">
             Own the Land. <br /> We Farm It Naturally.
           </h1>
 
@@ -54,9 +49,9 @@ const HomeMain = () => {
         </div>
 
         {/* RIGHT SECTION */}
-        <div className="flex flex-col justify-end text-center md:text-right md:w-1/2 h-full mt-8 md:mt-0 order-1 md:order-2">
+        <div className="flex flex-col justify-end text-center md:text-right md:w-1/2 mt-8 md:mt-0 order-1 md:order-2">
           <p
-            className="text-[20px] sm:text-[28px] md:text-[36px] lg:text-[40px] font-medium max-w-xl mb-6 md:mb-16 mx-auto md:mx-0"
+            className="text-[20px] sm:text-[26px] md:text-[34px] lg:text-[40px] font-medium max-w-xl mb-6 md:mb-16 mx-auto md:mx-0"
             style={{ lineHeight: "1.1" }}
           >
             Arony Farms makes <br /> farmland ownership effortless, transparent, and rewarding.
