@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Check } from 'lucide-react';
 import leafgrn from "../../assets/leaf-grn.png";
 import Highlights3 from '../../assets/Highlights3.png'
+import hglt1 from "../../assets/hglt1.png";
 
 const Highlights = () => {
     const scrollContainerRef = useRef(null);
@@ -127,7 +128,14 @@ const Highlights = () => {
 
 
                                     {/* Title Section - 50% */}
-                                    <div className="w-1/2 flex items-end justify-start px-6 lg:px-8 pb-6">
+                                    <div className="w-1/2 flex flex-col justify-end px-6 lg:px-8">
+                                        {/* Leaf icon above title */}
+                                        <img
+                                            src={hglt1}
+                                            alt="leaf icon"
+                                            className="w-8 h-8 mb-3"
+                                        />
+                                        {/* Title */}
                                         <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
                                             {highlight.title}
                                         </h3>
