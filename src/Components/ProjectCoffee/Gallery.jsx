@@ -1,15 +1,15 @@
 import React, { useState, useRef } from 'react';
 import { X, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGlyCoffee1 from "../../assets/ProjectGallary/coffee/coffee1.jpg";
-import proGlyCoffee2 from "../../assets/ProjectGallary/coffee/coffee2.jpg";
-import proGlyCoffee3 from "../../assets/ProjectGallary/coffee/coffee3.jpg";
-import proGlyCoffee4 from "../../assets/ProjectGallary/coffee/coffee4.jpg";
-import proGlyCoffee5 from "../../assets/ProjectGallary/coffee/coffee5.jpg";
-import proGlyCoffee6 from "../../assets/ProjectGallary/coffee/coffee6.jpg";
-import proGlyCoffee7 from "../../assets/ProjectGallary/coffee/coffee7.jpg";
-import proGlyCoffee8 from "../../assets/ProjectGallary/coffee/coffee8.jpg";
-import proGlyCoffee9 from "../../assets/ProjectGallary/coffee/coffee9.jpg";
-import proGlyCoffee10 from "../../assets/ProjectGallary/coffee/coffee10.jpg";
+import proGlyCoffee1 from "../../assets/ProjectGallery/coffee/coffee1.jpg";
+import proGlyCoffee2 from "../../assets/ProjectGallery/coffee/coffee2.jpg";
+import proGlyCoffee3 from "../../assets/ProjectGallery/coffee/coffee3.jpg";
+import proGlyCoffee4 from "../../assets/ProjectGallery/coffee/coffee4.jpg";
+import proGlyCoffee5 from "../../assets/ProjectGallery/coffee/coffee5.jpg";
+import proGlyCoffee6 from "../../assets/ProjectGallery/coffee/coffee6.jpg";
+import proGlyCoffee7 from "../../assets/ProjectGallery/coffee/coffee7.jpg";
+import proGlyCoffee8 from "../../assets/ProjectGallery/coffee/coffee8.jpg";
+import proGlyCoffee9 from "../../assets/ProjectGallery/coffee/coffee9.jpg";
+import proGlyCoffee10 from "../../assets/ProjectGallery/coffee/coffee10.jpg";
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {

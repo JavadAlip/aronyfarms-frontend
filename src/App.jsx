@@ -5,7 +5,7 @@ import ContactUs from "./Pages/ContactUs";
 import ProjectSandalwood from './Pages/ProjectSandalwood';
 import ProjectMango from './Pages/ProjectMango'
 import ProjectCoffee from './Pages/ProjectCoffee'
-
+import Blog from './Pages/Blog'
 
 export default function App() {
   return (
@@ -17,6 +17,7 @@ export default function App() {
         <Route path="/project-sandalwood" element={<ProjectSandalwood />} />
         <Route path="/project-mango" element={<ProjectMango />} />
         <Route path="/project-coffee" element={<ProjectCoffee />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );
