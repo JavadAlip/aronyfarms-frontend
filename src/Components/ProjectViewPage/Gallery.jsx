@@ -1,7 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { X, ImageIcon, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGly1 from "../../assets/ProjectGallary/proGly1.png";
-import proGly2 from "../../assets/ProjectGallary/proGly2.png";
+import proGly1 from "../../assets/ProjectGallary/sandalwood/sandalwood1.jpg";
+import proGly2 from "../../assets/ProjectGallary/sandalwood/sandalwood2.jpg";
+import proGly3 from "../../assets/ProjectGallary/sandalwood/sandalwood3.jpg";
+import proGly4 from "../../assets/ProjectGallary/sandalwood/sandalwood4.jpg";
+import proGly5 from "../../assets/ProjectGallary/sandalwood/sandalwood5.jpg";
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {
@@ -13,31 +16,31 @@ const Gallery = () => {
     const galleryImages = [
         {
             id: 1,
-            src: proGly2,
+            src: proGly1,
             alt: 'Mountain landscape with farm',
             size: 'small'
         },
         {
             id: 2,
-            src: proGly1,
+            src: proGly2,
             alt: 'Green leafy vegetables',
             size: 'large'
         },
         {
             id: 3,
-            src: proGly2,
+            src: proGly3,
             alt: 'Agricultural farm rows',
             size: 'small'
         },
         {
             id: 4,
-            src: proGly1,
+            src: proGly4,
             alt: 'Rice paddy fields',
             size: 'large'
         },
         {
             id: 5,
-            src: proGly2,
+            src: proGly5,
             alt: 'Forest plantation',
             size: 'small'
         }

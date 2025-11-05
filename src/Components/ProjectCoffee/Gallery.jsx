@@ -1,7 +1,15 @@
 import React, { useState, useRef } from 'react';
-import { X, ImageIcon, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGlyCoffee1 from "../../assets/ProjectGallary/proGlyCoffee1.png";
-import proGlyCoffee2 from "../../assets/ProjectGallary/proGlyCoffee2.png";
+import { X, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
+import proGlyCoffee1 from "../../assets/ProjectGallary/coffee/coffee1.jpg";
+import proGlyCoffee2 from "../../assets/ProjectGallary/coffee/coffee2.jpg";
+import proGlyCoffee3 from "../../assets/ProjectGallary/coffee/coffee3.jpg";
+import proGlyCoffee4 from "../../assets/ProjectGallary/coffee/coffee4.jpg";
+import proGlyCoffee5 from "../../assets/ProjectGallary/coffee/coffee5.jpg";
+import proGlyCoffee6 from "../../assets/ProjectGallary/coffee/coffee6.jpg";
+import proGlyCoffee7 from "../../assets/ProjectGallary/coffee/coffee7.jpg";
+import proGlyCoffee8 from "../../assets/ProjectGallary/coffee/coffee8.jpg";
+import proGlyCoffee9 from "../../assets/ProjectGallary/coffee/coffee9.jpg";
+import proGlyCoffee10 from "../../assets/ProjectGallary/coffee/coffee10.jpg";
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {
@@ -25,21 +33,51 @@ const Gallery = () => {
         },
         {
             id: 3,
-            src: proGlyCoffee2,
+            src: proGlyCoffee3,
             alt: 'Agricultural farm rows',
             size: 'small'
         },
         {
             id: 4,
-            src: proGlyCoffee1,
+            src: proGlyCoffee4,
             alt: 'Rice paddy fields',
             size: 'large'
         },
         {
             id: 5,
-            src: proGlyCoffee2,
+            src: proGlyCoffee5,
             alt: 'Forest plantation',
             size: 'small'
+        },
+         {
+            id: 6,
+            src: proGlyCoffee6,
+            alt: 'Forest plantation',
+            size: 'large'
+        },
+         {
+            id: 7,
+            src: proGlyCoffee7,
+            alt: 'Forest plantation',
+            size: 'small'
+        },
+         {
+            id: 8,
+            src: proGlyCoffee8,
+            alt: 'Forest plantation',
+            size: 'large'
+        },
+         {
+            id: 9,
+            src: proGlyCoffee9,
+            alt: 'Forest plantation',
+            size: 'small'
+        },
+         {
+            id: 10,
+            src: proGlyCoffee10,
+            alt: 'Forest plantation',
+            size: 'large'
         }
     ];
 
@@ -153,7 +191,7 @@ const Gallery = () => {
                                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                                    <ImageIcon className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    <Eye className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                 </div>
                             </div>
                         ))}

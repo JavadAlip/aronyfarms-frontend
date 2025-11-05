@@ -1,7 +1,16 @@
 import React, { useState, useRef } from 'react';
-import { X, ImageIcon, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGlyMango1 from "../../assets/ProjectGallary/proGlyMango1.png";
-import proGlyMango2 from "../../assets/ProjectGallary/proGlyMango2.png";
+import { X, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
+import proGlyMango1 from "../../assets/ProjectGallary/mango/mango10.png";
+import proGlyMango2 from "../../assets/ProjectGallary/mango/mango9.png";
+import proGlyMango3 from "../../assets/ProjectGallary/mango/mango1.jpg";
+import proGlyMango4 from "../../assets/ProjectGallary/mango/mango2.jpg";
+import proGlyMango5 from "../../assets/ProjectGallary/mango/mango3.jpg";
+import proGlyMango6 from "../../assets/ProjectGallary/mango/mango4.jpg";
+import proGlyMango7 from "../../assets/ProjectGallary/mango/mango5.jpg";
+import proGlyMango8 from "../../assets/ProjectGallary/mango/mango6.jpg";
+import proGlyMango9 from "../../assets/ProjectGallary/mango/mango7.jpg";
+import proGlyMango10 from "../../assets/ProjectGallary/mango/mango8.jpg";
+
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {
@@ -25,21 +34,51 @@ const Gallery = () => {
         },
         {
             id: 3,
-            src: proGlyMango2,
+            src: proGlyMango3,
             alt: 'Agricultural farm rows',
             size: 'small'
         },
         {
             id: 4,
-            src: proGlyMango1,
+            src: proGlyMango4,
             alt: 'Rice paddy fields',
             size: 'large'
         },
         {
             id: 5,
-            src: proGlyMango2,
+            src: proGlyMango5,
             alt: 'Forest plantation',
             size: 'small'
+        },
+         {
+            id: 6,
+            src: proGlyMango6,
+            alt: 'Forest plantation',
+            size: 'large'
+        },
+         {
+            id: 7,
+            src: proGlyMango7,
+            alt: 'Forest plantation',
+            size: 'small'
+        },
+         {
+            id: 8,
+            src: proGlyMango8,
+            alt: 'Forest plantation',
+            size: 'large'
+        },
+        {
+            id: 9,
+            src: proGlyMango9,
+            alt: 'Forest plantation',
+            size: 'small'
+        },
+        {
+            id: 10,
+            src: proGlyMango10,
+            alt: 'Forest plantation',
+            size: 'large'
         }
     ];
 
@@ -153,7 +192,7 @@ const Gallery = () => {
                                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                                    <ImageIcon className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                    <Eye className="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                 </div>
                             </div>
                         ))}
