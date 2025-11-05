@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { X, ImageIcon, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGly1 from "../../assets/Gallerys/sandalwood1.JPG";
-import proGly2 from "../../assets/Gallerys/sandalwood2.JPG";
-import proGly3 from "../../assets/Gallerys/sandalwood3.JPG";
-import proGly4 from "../../assets/Gallerys/sandalwood4.JPG";
-import proGly5 from "../../assets/Gallerys/sandalwood5.JPG";
+import proGly1 from "../../assets/Gallerys/sandalwood1.jpg";
+import proGly2 from "../../assets/Gallerys/sandalwood2.jpg";
+import proGly3 from "../../assets/Gallerys/sandalwood3.jpg";
+import proGly4 from "../../assets/Gallerys/sandalwood4.jpg";
+import proGly5 from "../../assets/Gallerys/sandalwood5.jpg";
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {
