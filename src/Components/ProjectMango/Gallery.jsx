@@ -1,15 +1,15 @@
 import React, { useState, useRef } from 'react';
 import { X, ChevronLeft, ChevronRight, Eye } from 'lucide-react';
-import proGlyMango1 from "../../assets/ProjectGallery/mango/mango10.png";
-import proGlyMango2 from "../../assets/ProjectGallery/mango/mango9.png";
-import proGlyMango3 from "../../assets/ProjectGallery/mango/mango1.jpg";
-import proGlyMango4 from "../../assets/ProjectGallery/mango/mango2.jpg";
-import proGlyMango5 from "../../assets/ProjectGallery/mango/mango3.jpg";
-import proGlyMango6 from "../../assets/ProjectGallery/mango/mango4.jpg";
-import proGlyMango7 from "../../assets/ProjectGallery/mango/mango5.jpg";
-import proGlyMango8 from "../../assets/ProjectGallery/mango/mango6.jpg";
-import proGlyMango9 from "../../assets/ProjectGallery/mango/mango7.jpg";
-import proGlyMango10 from "../../assets/ProjectGallery/mango/mango8.jpg";
+import proGlyMango1 from "../../assets/Gallerys/mango10.png";
+import proGlyMango2 from "../../assets/Gallerys/mango9.png";
+import proGlyMango3 from "../../assets/Gallerys/mango1.JPG";
+import proGlyMango4 from "../../assets/Gallerys/mango2.JPG";
+import proGlyMango5 from "../../assets/Gallerys/mango3.JPG";
+import proGlyMango6 from "../../assets/Gallerys/mango4.JPG";
+import proGlyMango7 from "../../assets/Gallerys/mango5.JPG";
+import proGlyMango8 from "../../assets/Gallerys/mango6.JPG";
+import proGlyMango9 from "../../assets/Gallerys/mango7.JPG";
+import proGlyMango10 from "../../assets/Gallerys/mango8.JPG";
 
 
 import leafgrn from "../../assets/leaf-grn.png";
