@@ -15,7 +15,7 @@ import NearBy from '../Components/ProjectViewPage/NearBy'
 import WhyUs from '../Components/ProjectViewPage/WhyUs'
 import AboutDeveloper from '../Components/ProjectViewPage/AboutDeveloper'
 import OtherProjects from '../Components/ProjectCoffee/OtherProjects'
-import WorkTogether from '../Components/HomeMain/WorkTogether'
+import WorkTogether from '../Components/ProjectViewPage/Together'
 
 const ProjectMango = () => {
     return (

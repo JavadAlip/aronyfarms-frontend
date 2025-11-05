@@ -1,5 +1,6 @@
 import React from 'react'
 import leafgrn from "../../assets/leaf-grn.png";
+import WhyUss from "../../assets/WhyUs.png";
 
 
 const WhyUs = () => {
@@ -29,7 +30,7 @@ const WhyUs = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1500076656116-558758c991c1?w=1600&q=80"
+          src={WhyUss}
           alt="Farm sunset landscape"
           className="w-full h-full object-cover"
         />

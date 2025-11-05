@@ -18,8 +18,8 @@ const Highlights = () => {
         {
             id: 2,
             image: Highlights2,
-            title: 'Sustainable Investment Returns',
-            description: 'Experience steady growth with eco-friendly sandalwood cultivation backed by expert agricultural practices.',
+            title: 'Prime Mango Plantation Ownership',
+            description: 'Enjoy legally compliant, freehold ownership of sandalwood plantation plots in the lush Karnataka region.',
         },
     ];
 
@@ -49,7 +49,7 @@ const Highlights = () => {
     };
 
     return (
-        <div className="w-full bg-gray-50 py-8 md:py-12 lg:py-16 px-4 md:px-6 lg:px-8">
+        <div className="w-full bg-white py-8 md:py-12 lg:py-16 px-4 md:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 md:mb-8">
@@ -77,8 +77,8 @@ const Highlights = () => {
                             onClick={() => scroll('left')}
                             disabled={!canScrollLeft}
                             className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${canScrollLeft
-                                    ? 'bg-[#4BA625] text-white hover:bg-green-700'
-                                    : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                                ? 'bg-[#4BA625] text-white hover:bg-green-700'
+                                : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                                 }`}
                         >
                             <ChevronLeft className="w-5 h-5" />
@@ -87,8 +87,8 @@ const Highlights = () => {
                             onClick={() => scroll('right')}
                             disabled={!canScrollRight}
                             className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${canScrollRight
-                                    ? 'bg-[#4BA625] text-white hover:bg-green-700'
-                                    : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                                ? 'bg-[#4BA625] text-white hover:bg-green-700'
+                                : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                                 }`}
                         >
                             <ChevronRight className="w-5 h-5" />
@@ -115,18 +115,16 @@ const Highlights = () => {
                                 className="flex-shrink-0 w-[90vw] sm:w-[80vw] md:w-[calc(70%-12px)] lg:w-[calc(75%-16px)] xl:w-[calc(80%-16px)]"
                             >
                                 {/* Desktop Layout - Image 50% + Title 50% side by side */}
-                                <div className="hidden md:flex h-72 lg:h-96 xl:h-[420px] bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                                <div className="hidden md:flex h-60 lg:h-72 xl:h-80 bg-white rounded-2xl overflow-hidden">
                                     {/* Image Section - 50% */}
-                                    <div className="relative w-1/2">
+                                    <div className="relative w-1/2 overflow-hidden rounded-2xl">
                                         <img
                                             src={highlight.image}
                                             alt={highlight.title}
-                                            className="w-full h-full object-cover"
+                                            className="w-full h-full object-cover rounded-2xl"
                                         />
-                                        {/* <div className="absolute top-4 right-4 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center shadow-lg">
-                                            <Check className="w-6 h-6 text-white" strokeWidth={3} />
-                                        </div> */}
                                     </div>
+
 
                                     {/* Title Section - 50% */}
                                     <div className="w-1/2 flex items-end justify-start px-6 lg:px-8 pb-6">
@@ -137,16 +135,18 @@ const Highlights = () => {
 
                                 </div>
 
+
                                 {/* Description below - Desktop */}
-                                <div className="hidden md:block bg-white px-6 lg:px-8 py-4  mt-2">
+                                <div className="hidden md:block bg-white px-6 lg:px-8 py-4 mt-2 w-1/2">
                                     <p className="text-sm lg:text-base text-gray-600 leading-relaxed">
                                         {highlight.description}
                                     </p>
                                 </div>
 
+
                                 {/* Mobile Layout - Stacked */}
-                                <div className="md:hidden bg-white rounded-2xl overflow-hidden shadow-lg">
-                                    <div className="relative w-full h-48">
+                                <div className="md:hidden bg-white rounded-2xl overflow-hidden ">
+                                    <div className="relative w-full h-40 rounded-2xl overflow-hidden">
                                         <img
                                             src={highlight.image}
                                             alt={highlight.title}
