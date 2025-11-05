@@ -12,8 +12,8 @@ const HomeMain = () => {
         bg-cover 
         bg-center 
         font-instrument 
-        min-h-[90vh]        /* Ensure enough height on mobile */
-        md:h-screen         /* Full height for desktop */
+        min-h-[90vh]        
+        md:h-screen        
         flex 
         items-center
       "
@@ -23,8 +23,19 @@ const HomeMain = () => {
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Content Wrapper */}
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-start w-full px-6 md:px-16 text-white py-12 md:py-0">
-
+      <div
+        className="
+          relative z-10 
+          flex flex-col md:flex-row 
+          justify-between md:justify-end  
+          items-start 
+          w-full 
+          px-6 md:px-16 
+          text-white 
+          py-12 md:py-0 
+          md:pb-24 lg:pt-96             
+        "
+      >
         {/* LEFT SECTION */}
         <div className="flex flex-col justify-end items-start gap-6 md:w-1/2 pb-10 md:pb-20 order-2 md:order-1 text-center md:text-left mx-auto md:mx-0">
           {/* Badges */}
@@ -37,7 +48,7 @@ const HomeMain = () => {
             ))}
           </div>
 
-          <h1 className="text-[24px] sm:text-[28px] md:text-[36px] lg:text-[40px] font-medium max-w-2xl leading-snug md:leading-tight text-center md:text-left mx-auto md:mx-0">
+          <h1 className="text-[24px] sm:text-[28px] md:text-[36px] lg:text-[44px] font-medium max-w-2xl leading-snug md:leading-tight text-center md:text-left mx-auto md:mx-0">
             Own the Land. <br /> We Farm It Naturally.
           </h1>
 
@@ -51,7 +62,7 @@ const HomeMain = () => {
         {/* RIGHT SECTION */}
         <div className="flex flex-col justify-end text-center md:text-right md:w-1/2 mt-8 md:mt-0 order-1 md:order-2">
           <p
-            className="text-[20px] sm:text-[26px] md:text-[34px] lg:text-[40px] font-medium max-w-xl mb-6 md:mb-16 mx-auto md:mx-0"
+            className="text-[20px] sm:text-[26px] md:text-[34px] lg:text-[44px] font-medium max-w-xl mb-6 md:mb-16 mx-auto md:mx-0"
             style={{ lineHeight: "1.1" }}
           >
             Arony Farms makes <br /> farmland ownership effortless, transparent, and rewarding.
