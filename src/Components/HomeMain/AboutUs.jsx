@@ -31,19 +31,21 @@ const AboutUs = () => {
                             <span className="text-black text-[16px] font-medium">About us</span>
                         </div>
 
-                        <h1 className="text-[40px] font-medium text-black" style={{ lineHeight: "1.1" }}>
+                        <h1 className="text-[46px] font-medium text-black leading-tight">
                             Pioneering Managed Farmland Investments
                         </h1>
 
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                        <div className="flex flex-wrap gap-2">
                             {tags.map((tag, index) => (
                                 <span
                                     key={index}
-                                    className={`${tag.bg} ${tag.text} px-4 py-2 rounded-md text-sm font-medium text-center`}>
+                                    className={`${tag.bg} ${tag.text} px-3 py-1 rounded-md text-[16px] font-medium text-center`}
+                                >
                                     {tag.text1}
                                 </span>
                             ))}
                         </div>
+
                     </div>
 
                     {/* Right Column */}

@@ -39,7 +39,7 @@ const Approach = () => {
               <span className="text-black text-[16px] font-medium">Our Approach</span>
             </div>
 
-            <h2 className="text-[34px] sm:text-5xl lg:text-6xl font-medium text-gray-900 leading-tight">
+            <h2 className="text-[34px] sm:text-5xl lg:text-[34px] font-medium text-gray-900 leading-tight">
               Redefining farmland <br /> ownership for modern investors
             </h2>
 
