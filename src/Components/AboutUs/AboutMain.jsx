@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import aboutmain from '../../assets/aboutmain.png'
+import aboutmain from '../../assets/together1.png'
 import leaf from "../../assets/leaf.png";
 import leafgrn from "../../assets/leaf-grn.png";
 

@@ -64,14 +64,14 @@ const Navbar = () => {
                     className="block px-4 py-2 text-[16px] hover:bg-gray-100"
                   >
                     Sandalwood
-                  </Link> 
+                  </Link>
                   <Link
                     to="/project-mango"
                     className="block px-4 py-2 text-[16px] hover:bg-gray-100"
                   >
                     Mango
-                  </Link> 
-                   <Link
+                  </Link>
+                  <Link
                     to="/project-coffee"
                     className="block px-4 py-2 text-[16px] hover:bg-gray-100"
                   >
@@ -80,9 +80,11 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-
             <Link to="/blog" className="hover:text-green-400 text-[16px]">
               Blog
+            </Link>
+            <Link to="/#" className="hover:text-green-400 text-[16px]">
+              Events
             </Link>
             <Link to="/contact" className="hover:text-green-400 text-[16px]">
               Contact Us
@@ -145,14 +147,14 @@ const Navbar = () => {
                 className="block px-4 py-2 text-sm hover:bg-gray-100"
               >
                 Sandalwood
-              </Link> 
-               <Link
+              </Link>
+              <Link
                 to="/project-mango"
                 className="block px-4 py-2 text-sm hover:bg-gray-100"
               >
                 Mango
-              </Link> 
-               <Link
+              </Link>
+              <Link
                 to="/project-coffee"
                 className="block px-4 py-2 text-sm hover:bg-gray-100"
               >
@@ -163,6 +165,9 @@ const Navbar = () => {
 
           <Link to="/blog" className="block px-4 py-2 hover:bg-gray-100">
             Blog
+          </Link>
+          <Link to="/" className="block px-4 py-2 hover:bg-gray-100">
+            Events
           </Link>
           <Link to="/contact" className="block px-4 py-2 hover:bg-gray-100">
             Contact Us
