@@ -1,5 +1,6 @@
 import React from 'react'
 import leafgrn from "../../assets/leaf-grn.png";
+import leafs from "../../assets/leafs.png";
 import WhyUss from "../../assets/WhyUs.png";
 
 
@@ -67,13 +68,13 @@ const WhyUs = () => {
                 <div className="flex items-start gap-3">
                   {/* Icon */}
                   <div className="flex-shrink-0 mt-1">
-                    <img src={leafgrn} alt="" />
+                    <img src={leafs} alt="" />
                   </div>
 
                  
                 </div>
                  {/* Text */}
-                  <p className="text-[#585858] text-[28px] sm:text-base leading-relaxed">
+                  <p className="text-[#585858] lg:text-[20px] font-medium sm:text-base leading-relaxed">
                     {reason.text}
                   </p>
               </div>
