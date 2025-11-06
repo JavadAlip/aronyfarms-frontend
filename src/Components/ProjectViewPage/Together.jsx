@@ -1,5 +1,7 @@
-import together1 from '../../assets/together1.png'
+import together1 from '../../assets/approach3.png'
 import leaf from "../../assets/leaf.png";
+import together2 from '../../assets/apporach4.png'
+import together3 from '../../assets/approach1.png'
 
 
 const Together = () => {
@@ -11,8 +13,8 @@ const Together = () => {
 
   const images = [
     { id: 1, url: together1, alt: "Work together image" },
-    { id: 2, url: together1, alt: "Work together image" },
-    { id: 3, url: together1, alt: "Work together image" }
+    { id: 2, url: together2, alt: "Work together image" },
+    { id: 3, url: together3, alt: "Work together image" }
   ];
 
   return (
