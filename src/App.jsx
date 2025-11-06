@@ -7,6 +7,7 @@ import ProjectMango from './Pages/ProjectMango'
 import ProjectCoffee from './Pages/ProjectCoffee'
 import Blog from './Pages/Blog'
 import BlogView from './Pages/BlogView'
+import ProjectPage from './Pages/ProjectPage'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/project-coffee" element={<ProjectCoffee />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-view" element={<BlogView />} />
+        <Route path="/Project-page" element={<ProjectPage />} />
       </Routes>
     </Router>
   );
