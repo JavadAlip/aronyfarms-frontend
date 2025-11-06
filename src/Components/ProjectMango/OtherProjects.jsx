@@ -1,23 +1,31 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 import leafgrn from "../../assets/leaf-grn.png";
 import leaf from "../../assets/leaf.png";
 import otherprjct from "../../assets/otherprjct.png";
+import otherprjct1 from "../../assets/ProjectViewMain3.png";
 
 const OtherProjects = () => {
   const projects = [
     {
-      title: 'Arony Mango Farm',
+      title: "Arony Sandalwood Farm",
       image: otherprjct,
-      description1: 'Arony Sandalwood Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India\'s most sought-after agroforestry corridor.',
-      description2: 'Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.'
+      description1:
+        "Arony Sandalwood Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India's most sought-after agroforestry corridor.",
+      description2:
+        "Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.",
+      link: "/project-sandalwood",
     },
     {
-      title: 'Arony Mango Farm',
-      image: otherprjct,
-      description1: 'Arony Sandalwood Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India\'s most sought-after agroforestry corridor.',
-      description2: 'Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.'
-    }
-  ]
+      title: "Arony Coffee Farm",
+      image: otherprjct1,
+      description1:
+        "Arony Coffee Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India's most sought-after agroforestry corridor.",
+      description2:
+        "Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.",
+      link: "/project-coffee",
+    },
+  ];
 
   return (
     <div className="bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -25,14 +33,15 @@ const OtherProjects = () => {
         {/* Header Section */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="space-y-2">
-
             <div className="flex items-center gap-2 border border-gray-300 rounded-full px-4 py-2 hover:border-green-500 transition-colors w-fit">
               <img
                 src={leafgrn}
                 alt="leaf icon"
                 className="w-5 h-5 object-contain"
               />
-              <span className="text-black text-[16px] font-medium">Other Projects</span>
+              <span className="text-black text-[16px] font-medium">
+                Other Projects
+              </span>
             </div>
 
             <h2 className="text-[34px] sm:text-4xl lg:text-[34px] font-medium text-black">
@@ -85,18 +94,21 @@ const OtherProjects = () => {
                   {project.description2}
                 </p>
 
-                {/* CTA Button */}
-                <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors">
-                  <img src={leaf} alt="" />
+                {/* CTA Button with Link */}
+                <Link
+                  to={project.link}
+                  className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors"
+                >
+                  <img src={leaf} alt="leaf icon" />
                   <span>View Project Details</span>
-                </button>
+                </Link>
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default OtherProjects
+export default OtherProjects;
