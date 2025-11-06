@@ -2,7 +2,7 @@ import React from 'react'
 import { Plus } from 'lucide-react'
 import blogs1 from '../../assets/blogs1.png'
 import blogs2 from '../../assets/blogs2.png'
-import blogs3 from '../../assets/blogs2.png'
+import blogs3 from '../../assets/relatedPost1.png'
 import blogs4 from '../../assets/blogs4.png'
 import blogs5 from '../../assets/blogs5.png'
 import blogs6 from '../../assets/blogs6.png'
@@ -76,6 +76,8 @@ const Blogs = () => {
                   alt={blog.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
+                {/* Black overlay with 30% opacity */}
+                <div className="absolute inset-0 bg-black/30"></div>
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4">
                   <span
