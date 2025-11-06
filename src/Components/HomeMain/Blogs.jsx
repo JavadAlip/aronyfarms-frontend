@@ -4,6 +4,7 @@ import blog2 from '../../assets/blog2.png'
 import blog3 from '../../assets/blog3.png'
 import leafgrn from "../../assets/leaf-grn.png";
 import leaf from "../../assets/leaf.png";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
     const [expandedBlog, setExpandedBlog] = useState(null);
@@ -60,14 +61,17 @@ const Blogs = () => {
                             Our Latest Blogs
                         </h2>
                     </div>
-                    <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors">
+                    <Link
+                        to="/blog-view"
+                        className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors"
+                    >
                         <img
                             src={leaf}
                             alt="leaf icon"
                             className="w-5 h-5 object-contain"
                         />
                         <span>Discover our blog</span>
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Blog Grid */}

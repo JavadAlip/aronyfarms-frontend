@@ -217,7 +217,7 @@ const Footer = () => {
       { name: 'Coffee', href: '/project-coffee' },
     ],
     information: [
-      { name: 'Blog', href: '#' },
+      { name: 'Blog', href: '/blog' },
       { name: 'FAQ', href: '#' },
     ],
   };

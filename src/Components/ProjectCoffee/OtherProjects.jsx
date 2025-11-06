@@ -50,10 +50,13 @@ const OtherProjects = () => {
           </div>
 
           {/* See All Button */}
-          <button className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors self-start sm:self-auto">
+          <Link
+            to="/project-page"
+            className="bg-[#4BA625] hover:bg-green-700 text-white font-medium px-6 py-3 rounded-full inline-flex items-center gap-2 transition-colors self-start sm:self-auto"
+          >
             <img src={leaf} alt="" />
             <span>See all projects</span>
-          </button>
+          </Link>
         </div>
 
         {/* Projects Grid */}
