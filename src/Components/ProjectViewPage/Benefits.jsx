@@ -3,30 +3,14 @@ import leafgrn from "../../assets/leaf-grn.png";
 
 const Benefits = () => {
   const benefits = [
-    {
-      text: 'Annualized return potential of 20–25% at maturity, driven by global demand and short supply'
-    },
-    {
-      text: 'Agricultural income is tax-exempt under current Indian law'
-    },
-    {
-      text: 'Recession-proof, inflation-hedged tangible asset, outperforming most markets'
-    },
-    {
-      text: 'Government-facilitated sales, minimal marketing risk'
-    },
-    {
-      text: 'Promotes biodiversity and landscape resilience'
-    },
-    {
-      text: 'Excellent carbon offset/ESG investment'
-    },
-    {
-      text: 'Passive income, weekend retreat potential, and connection with nature'
-    },
-    {
-      text: 'Supports rural employment and ecosystem conservation'
-    }
+    { text: 'Annualized return potential of 20–25% at maturity, driven by global demand and short supply' },
+    { text: 'Agricultural income is tax-exempt under current Indian law' },
+    { text: 'Recession-proof, inflation-hedged tangible asset, outperforming most markets' },
+    { text: 'Government-facilitated sales, minimal marketing risk' },
+    { text: 'Promotes biodiversity and landscape resilience' },
+    { text: 'Excellent carbon offset/ESG investment' },
+    { text: 'Passive income, weekend retreat potential, and connection with nature' },
+    { text: 'Supports rural employment and ecosystem conservation' }
   ];
 
   return (
@@ -49,14 +33,14 @@ const Benefits = () => {
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="flex flex-col items-start text-left"
+              className="flex items-start gap-4 text-left"
             >
-              {/* Checkmark Icon on Top */}
-              <div className="w-10 h-10 bg-[#4BA625] rounded-full flex items-center justify-center mb-4">
+              {/* Checkmark Icon on Left */}
+              <div className="w-8 h-8 bg-[#4BA625] rounded-full flex items-center justify-center flex-shrink-0">
                 <svg
                   className="w-6 h-6 text-white"
                   fill="none"
@@ -73,9 +57,10 @@ const Benefits = () => {
               </div>
 
               {/* Text */}
-              <p className="text-[#1E1E1E] text-[30px] font-medium sm:text-base leading-relaxed max-w-[90%]">
+              <p className="text-[#1E1E1E] font-medium text-[17px] sm:text-[20px] lg:text-[20px] leading-normal">
                 {benefit.text}
               </p>
+
             </div>
           ))}
         </div>

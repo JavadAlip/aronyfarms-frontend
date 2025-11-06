@@ -179,7 +179,7 @@ const Footer = () => {
   const footerRef = useRef(null);
   const [showButton, setShowButton] = useState(false);
 
-  // 👇 Observe when footer enters the viewport
+  //  Observe when footer enters the viewport
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -239,38 +239,39 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12 -mb-1">
           {/* Logo and Tagline */}
           <div className="lg:col-span-2">
-            <div className="mb-6">
-              <div className="mb-4">
+            <div className="mb-3 lg:mb-2">
+              <div className="mb-2 lg:mb-1">
                 <img
                   src={logo}
                   alt="Arony Farms Logo"
-                  className="w-48 sm:w-48 md:w-56 lg:w-72 h-auto object-contain"
+                  className="w-48 sm:w-48 md:w-56 lg:w-64 h-auto object-contain"
                 />
               </div>
             </div>
 
-            <h3 className="text-black font-bold text-[18px] sm:text-[22px] md:text-[24px] lg:text-[28px] leading-tight mb-4 sm:mb-3 md:mb-2 whitespace-normal sm:whitespace-normal lg:whitespace-nowrap">
+            <h3 className="text-black font-bold text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] leading-snug mb-3 lg:mb-1 whitespace-normal sm:whitespace-normal lg:whitespace-nowrap">
               You own<br />
               We Farm and Manage <br />
               You Enjoy the Returns and Green Legacy
             </h3>
 
-            <div className="flex items-center gap-3 pt-4 sm:pt-6 md:pt-8 lg:pt-10 sm:gap-3 md:gap-2">
+            <div className="flex items-center gap-3 pt-4 sm:pt-4 md:pt-4 lg:pt-6 sm:gap-3 md:gap-3 lg:gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
                   href={social.href}
-                  className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+                  className="flex items-center gap-2 hover:opacity-80 transition-transform transform hover:scale-105"
                 >
                   <img
                     src={social.icon}
                     alt={social.name}
-                    className="w-12 h-12 sm:w-24 sm:h-24 md:w-20 md:h-20 lg:w-28 lg:h-28 object-contain"
+                    className="w-12 h-12 sm:w-36 sm:h-32 md:w-20 md:h-20 lg:w-28 lg:h-28 object-contain"
                   />
                 </a>
               ))}
             </div>
           </div>
+
 
           {/* Navigation Sections */}
           <div className="col-span-1 md:col-span-2 lg:col-span-4">
