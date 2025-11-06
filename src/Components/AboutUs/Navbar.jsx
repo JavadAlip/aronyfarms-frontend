@@ -52,6 +52,13 @@ const Navbar = () => {
 
               {isDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-40 bg-white/90 text-gray-800 rounded-md shadow-lg backdrop-blur-md">
+                  {/* <Link
+                    to="/project-page"
+                    className="block px-4 py-2 text-[16px] hover:bg-gray-100"
+                  >
+                    Projects
+                  </Link> */}
+
                   <Link
                     to="/project-sandalwood"
                     className="block px-4 py-2 text-[16px] hover:bg-gray-100"
@@ -84,7 +91,7 @@ const Navbar = () => {
 
           {/* Desktop Button */}
           <div className="hidden md:flex items-center">
-            <Link to="/">
+            <Link to="/project-page">
               <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
                 <img
                   src={leaf}
@@ -128,6 +135,12 @@ const Navbar = () => {
 
           {isDropdownOpen && (
             <div className="pl-6">
+              {/* <Link
+                to="/project-page"
+                className="block px-4 py-2 text-sm hover:bg-gray-100"
+              >
+                Projects
+              </Link> */}
               <Link
                 to="/project-sandalwood"
                 className="block px-4 py-2 text-sm hover:bg-gray-100"
@@ -157,7 +170,7 @@ const Navbar = () => {
           </Link>
 
           <div className="flex justify-center py-3">
-            <Link to="/">
+            <Link to="/project-page">
               <button className="bg-[#4BA625] text-white font-medium px-6 py-3 rounded-full flex items-center gap-2 transition-colors ">
                 <img
                   src={leaf}

@@ -154,9 +154,9 @@ const Footer = () => {
           <p className="text-[#585858] text-[14px] sm:text-[15px] lg:text-[16px] font-normal text-center sm:text-left">
             © Arony Farms. All rights reserved.
           </p>
-          <p className="text-[#585858] text-[13px] sm:text-[14px] text-center sm:text-right">
+          {/* <p className="text-[#585858] text-[13px] sm:text-[14px] text-center sm:text-right">
             Designed by <span className="text-[#035925] font-normal">KBs.</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
