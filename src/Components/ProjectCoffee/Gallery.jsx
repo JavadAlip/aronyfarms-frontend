@@ -2,14 +2,14 @@ import React, { useState, useRef } from 'react';
 import { X, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
 import proGlyCoffee1 from "../../assets/coffee11.png";
 import proGlyCoffee2 from "../../assets/coffee22.png";
-import proGlyCoffee3 from "../../assets/proGlyCoffee1.png";
-import proGlyCoffee4 from "../../assets/proGlyCoffee2.png";
-import proGlyCoffee5 from "../../assets/proGlyCoffee1.png";
-import proGlyCoffee6 from "../../assets/proGlyCoffee2.png";
-import proGlyCoffee7 from "../../assets/proGlyCoffee1.png";
-import proGlyCoffee8 from "../../assets/proGlyCoffee2.png";
-import proGlyCoffee9 from "../../assets/proGlyCoffee1.png";
-import proGlyCoffee10 from "../../assets/proGlyCoffee2.png";
+import proGlyCoffee3 from "../../assets/coffee33.png";
+import proGlyCoffee4 from "../../assets/coffee44.png";
+import proGlyCoffee5 from "../../assets/coffee55.png";
+import proGlyCoffee6 from "../../assets/coffee66.png";
+import proGlyCoffee7 from "../../assets/coffee77.png";
+import proGlyCoffee8 from "../../assets/coffee88.png";
+import proGlyCoffee9 from "../../assets/coffee99.png";
+import proGlyCoffee10 from "../../assets/coffee100.png";
 import leafgrn from "../../assets/leaf-grn.png";
 
 const Gallery = () => {
