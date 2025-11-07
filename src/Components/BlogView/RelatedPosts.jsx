@@ -6,6 +6,7 @@ import relatedPost1 from '../../assets/relatedPost1.png'
 import relatedPost2 from '../../assets/relatedPost2.png'
 import relatedPost3 from '../../assets/relatedPost3.png'
 
+
 const RelatedPosts = () => {
   const posts = [
     {
