@@ -12,6 +12,7 @@ import proGlyCoffee9 from "../../assets/coffee99.png";
 import proGlyCoffee10 from "../../assets/coffee100.png";
 import leafgrn from "../../assets/leaf-grn.png";
 
+
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   const scrollContainerRef = useRef(null);
