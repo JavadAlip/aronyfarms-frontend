@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { X, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
-import proGlyCoffee1 from "../../assets/proGlyCoffee1.png";
-import proGlyCoffee2 from "../../assets/proGlyCoffee2.png";
+import proGlyCoffee1 from "../../assets/coffee11.png";
+import proGlyCoffee2 from "../../assets/coffee22.png";
 import proGlyCoffee3 from "../../assets/proGlyCoffee1.png";
 import proGlyCoffee4 from "../../assets/proGlyCoffee2.png";
 import proGlyCoffee5 from "../../assets/proGlyCoffee1.png";
