@@ -7,7 +7,6 @@ import Approach from '../Components/HomeMain/Approch'
 import KeyPillars from '../Components/HomeMain/KeyPillars'
 import Expertise from '../Components/HomeMain/Expertise'
 import ChooseUs from '../Components/HomeMain/ChooseUs'
-import Testimonials from '../Components/HomeMain/Testimonals'
 import Investors from '../Components/HomeMain/Investors'
 import Blogs from '../Components/HomeMain/Blogs'
 import WorkTogether from '../Components/HomeMain/WorkTogether'
@@ -21,12 +20,10 @@ const Home = () => {
       <HomeMain />
       <AboutUs />
       <AboutUs1/>
-
       <Approach/>
       <KeyPillars/>
       <Expertise/>
       <ChooseUs/>
-      <Testimonials/>
       <Investors/>
       <Blogs/>
       <WorkTogether/>

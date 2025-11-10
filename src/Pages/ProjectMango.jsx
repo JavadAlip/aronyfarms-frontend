@@ -11,11 +11,12 @@ import Highlights from '../Components/ProjectMango/Highlights'
 import Tourist from '../Components/ProjectViewPage/Tourist'
 import Gallery from '../Components/ProjectMango/Gallery'
 import Benefits from '../Components/ProjectViewPage/Benefits'
-import NearBy from '../Components/ProjectViewPage/NearBy'
+import NearBy from '../Components/ProjectMango/NearBy'
 import WhyUs from '../Components/ProjectViewPage/WhyUs'
 import AboutDeveloper from '../Components/ProjectViewPage/AboutDeveloper'
 import OtherProjects from '../Components/ProjectMango/OtherProjects'
 import WorkTogether from '../Components/ProjectViewPage/Together'
+import Faq from '../Components/ProjectMango/Faq'
 
 const ProjectMango = () => {
     return (
@@ -36,6 +37,7 @@ const ProjectMango = () => {
             <AboutDeveloper/>
             <OtherProjects/>
             <WorkTogether />
+            <Faq/>
             <Footer />
         </div>
     )

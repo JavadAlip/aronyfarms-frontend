@@ -16,6 +16,7 @@ import WhyUs from '../Components/ProjectViewPage/WhyUs'
 import AboutDeveloper from '../Components/ProjectViewPage/AboutDeveloper'
 import OtherProjects from '../Components/ProjectCoffee/OtherProjects'
 import WorkTogether from '../Components/ProjectViewPage/Together'
+import Faq from '../Components/ProjectCoffee/Faq'
 
 const ProjectMango = () => {
     return (
@@ -23,19 +24,20 @@ const ProjectMango = () => {
             <Navbar />
             <ProjectViewMain />
             <Location />
-            <AreaLayout/>
-            <Configration/>
-            <CropDetails/>
-            <Ownership/>
-            <Highlights/>
-            <Tourist/>
-            <Gallery/>
-            <Benefits/>
-            <NearBy/>
-            <WhyUs/>
-            <AboutDeveloper/>
-            <OtherProjects/>
+            <AreaLayout />
+            <Configration />
+            <CropDetails />
+            <Ownership />
+            <Highlights />
+            <Tourist />
+            <Gallery />
+            <Benefits />
+            <NearBy />
+            <WhyUs />
+            <AboutDeveloper />
+            <OtherProjects />
             <WorkTogether />
+            <Faq />
             <Footer />
         </div>
     )

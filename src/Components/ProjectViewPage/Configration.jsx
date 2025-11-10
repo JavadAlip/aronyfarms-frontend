@@ -15,6 +15,7 @@ const Configuration = () => {
   const plotData = [
     { configuration: "10 Guntas", sba: "10,890 Sq.Ft", price: "Unlock Price" },
     { configuration: "20 Guntas", sba: "21,789 Sq.Ft", price: "Unlock Price" },
+    { configuration: "40 Guntas", sba: "43,260 Sq.Ft", price: "Unlock Price" },
   ];
 
   const handleUnlockClick = (plot) => {
@@ -92,9 +93,8 @@ const Configuration = () => {
               {plotData.map((plot, index) => (
                 <div
                   key={index}
-                  className={`grid grid-cols-3 ${
-                    index !== plotData.length - 1 ? "border-b border-[#CF7A19]" : ""
-                  }`}
+                  className={`grid grid-cols-3 ${index !== plotData.length - 1 ? "border-b border-[#CF7A19]" : ""
+                    }`}
                 >
                   <div className="px-2 sm:px-4 py-4 text-center">
                     <span className="text-black font-medium text-[14px] sm:text-[18px] md:text-[22px] lg:text-[26px]">

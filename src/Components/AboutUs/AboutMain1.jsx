@@ -20,7 +20,7 @@ const AboutMain1 = () => {
         },
         {
             icon: leafsgrn,
-            value: '500+ Acres',
+            value: '300+ Acres',
             label: 'Cultivated organically',
             description: 'Every acre under Arony Farms is nurtured using 100% natural and chemical-free farming practices.',
         },

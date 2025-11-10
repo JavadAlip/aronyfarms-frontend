@@ -10,54 +10,79 @@ const Faq = () => {
     const faqData = [
         {
             id: 0,
-            question: "Why choose Arony Farm for managed farmland?",
-            answer: "Arony Farm makes farmland ownership simple and stress-free. We provide plantation, irrigation, workforce and complete farm care. You own the land, Arony Farm manages the farming professionally. So you enjoy returns, peace, and nature without daily work."
+            question: "Why choose Coffee with Silver Oak farming?",
+            answer: "Coffee grows best under partial shade, and Silver Oak provides the perfect balance. This improves bean flavor and plant health. Arony Farm designs plantations for high yield and future value."
         },
         {
             id: 1,
-            question: "Is Arony Farm a trusted company?",
-            answer: "Arony Farm has transparent documentation and land with clear titles. We offer verified agricultural land in prime farming belts. Our team is experienced in plantation & farm development. Trust, clarity, and long-term value define Arony Farm."
+            question: "Why is Sakaleshpur ideal for Coffee farming?",
+            answer: "Sakaleshpur has cool weather, fertile soil, and high rainfall. These natural conditions produce rich, aromatic coffee beans. Arony Farm chooses estates only in climate-perfect regions."
         },
         {
             id: 2,
-            question: " What makes Arony farmland investment safe?",
-            answer: "Arony Farm provides properly surveyed and legally approved farmland.You receive 100% clear title and registered ownership in your name.We maintain full transparency in plans, pricing and process. Your investment is secured with Arony Farm's managed model"
+            question: "What is the role of Silver Oak in coffee farms?",
+            answer: " Silver Oak provides essential shade and protects crops from heat. It also grows into high-value timber over time. Arony Farm ensures correct spacing and shade planning."
         },
         {
             id: 3,
-            question: "Do I need farming experience",
-            answer: "No experience is required when you invest with Arony Farm.We take care of plantation, soil care, irrigation and security.You simply visit, enjoy your farm and watch it grow. Arony Farm handles the work, you enjoy the benefits"
+            question: "When does coffee start yielding?",
+            answer: "Coffee typically starts yielding in 2–3 years. Yields increase as the plantation matures. Arony Farm monitors growth for consistent yearly harvests."
         },
         {
             id: 4,
-            question: "Can I build a farmhouse on my plot?",
-            answer: "Yes, all Arony Farm projects are farmhouse-ready.ou can design your weekend stay or vacation home easily.We guide with layout, utilities and construction support. Arony Farm makes your nature-living dream practical and simple"
+            question: "What income does Coffee farmland provide?",
+            answer: "Coffee gives seasonal bean harvest income. Silver Oak provides long-term timber returns. Arony Farm offers a dual-income farming model."
         },
         {
             id: 5,
-            question: "How is the plantation maintained?",
-            answer: "Our expert plantation team monitors growth at every stage .Arony Farm manages watering, pruning, nutrition and protection.You receive progress updates from our farm supervision team. Your farm stays healthy and thriving under Arony Farm care."
+            question: "Does Coffee farming require daily involvement?",
+            answer: "No daily work is required from the owner. Arony Farm handles irrigation, pruning, and maintenance. You simply enjoy your plantation during visits."
         },
         {
             id: 6,
-            question: "Will I get regular updates?",
-            answer: "Yes, Arony Farm provides timely reports and plantation updates. You stay informed about crop growth, weather and maintenance. We ensure full visibility even if you live in the city. Your farm grows, and you stay connected at every step"
+            question: "How does Arony Farm maintain Coffee quality?",
+            answer: "We follow organic care, pruning cycles, and moisture balance. Shade and soil nutrition are monitored regularly. Arony Farm ensures sustainable and premium production."
         },
         {
             id: 7,
-            question: "Why choose Arony Farm over other farmland companies?",
-            answer: "Arony Farm combines experience, transparency and real farm expertise. We do not just sell land  we manage it responsibly.Your investment grows in value and greenery together  Arony Farm focuses on long-term sustainability, not just sales."
+            question: "Can I build a farmhouse in the Coffee estate?",
+            answer: "Yes, the estate is ideal for weekends and nature stays. Arony Farm assists with layout and access planning. You enjoy peace and greenery whenever you visit."
         },
         {
             id: 8,
-            question: "Is Arony Farm suitable for weekend getaways?",
-            answer: "Yes, our projects are in beautiful and peaceful nature zones. You can visit your land anytime to relax and unwind. Fresh air, greenery and quiet surroundings create true calm.  Arony Farm gives you land and peace together."
+            question: "How are Coffee beans harvested and sold?",
+            answer: "Arony Farm manages harvesting, drying, and market connections. We handle the post-harvest process professionally. You receive returns without managing operations."
         },
         {
             id: 9,
-            question: "What is the long-term benefit of Arony Farm?",
-            answer: "Your farmland grows in value as plantations mature. You receive yearly crop income and future harvest returns. Plus, you own a natural asset for life. Arony Farm creates peace, prosperity and a legacy for your family"
-        }
+            question: "Does Coffee farming increase land value?",
+            answer: "Yes, productive plantations appreciate faster than raw land. Coffee estates are always in lifestyle and investment demand. Arony Farm ensures your farm stays well maintained."
+        },
+        {
+            id: 10,
+            question: "Is Coffee farming eco-friendly?",
+            answer: "Yes, Coffee + Silver Oak supports biodiversity and natural shade. It preserves soil and reduces heat impact. Arony Farm prioritizes eco-sustainable agriculture."
+        },
+        {
+            id: 11,
+            question: "How much rainfall is needed for Coffee crops?",
+            answer: "Coffee thrives in strong and consistent rainfall regions. Sakaleshpur naturally meets this requirement. Arony Farm selects only rainfall-supported zones."
+        },
+        {
+            id: 12,
+            question: "Can Coffee farmland be passed to the family?",
+            answer: "Yes, coffee estates are long-lasting and heritage-friendly. Your land becomes a generational wealth asset. Arony Farm supports long-term ownership transitions."
+        },
+        {
+            id: 13,
+            question: "Who is suitable for Coffee farmland?",
+            answer: "Ideal for professionals, retirees, and nature lovers. You get peace, privacy, and reliable agricultural income. Arony Farm manages everything on your behalf."
+        },
+        {
+            id: 14,
+            question: "Why is Coffee + Silver Oak considered a smart investment?",
+            answer: "It provides yearly harvest income and future timber value. Land value increases as the estate matures. Arony Farm turns farmland into a lifestyle and asset growth opportunity."
+        },
     ];
 
     const toggleFaq = (id) => {
@@ -65,8 +90,8 @@ const Faq = () => {
     };
 
     // Split FAQs into two columns
-    const leftColumnFaqs = faqData.slice(0, 5);
-    const rightColumnFaqs = faqData.slice(5);
+    const leftColumnFaqs = faqData.slice(0, 7);
+    const rightColumnFaqs = faqData.slice(8);
 
     return (
         <div className="bg-neutral-50 py-16 px-4 sm:px-6 lg:px-8">

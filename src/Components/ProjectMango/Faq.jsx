@@ -10,54 +10,79 @@ const Faq = () => {
     const faqData = [
         {
             id: 0,
-            question: "Why choose Arony Farm for managed farmland?",
-            answer: "Arony Farm makes farmland ownership simple and stress-free. We provide plantation, irrigation, workforce and complete farm care. You own the land, Arony Farm manages the farming professionally. So you enjoy returns, peace, and nature without daily work."
+            question: "Why is Mango farming a good investment?",
+            answer: "Mango orchards provide annual seasonal fruit income. Once matured, the trees continue yielding for decades. Arony Farm ensures healthy plantations for long-term steady returns."
         },
         {
             id: 1,
-            question: "Is Arony Farm a trusted company?",
-            answer: "Arony Farm has transparent documentation and land with clear titles. We offer verified agricultural land in prime farming belts. Our team is experienced in plantation & farm development. Trust, clarity, and long-term value define Arony Farm."
+            question: "Why choose Mango farming with Arony Farm?",
+            answer: "We plant premium commercial mango varieties with strong market demand. Arony Farm manages irrigation, pruning, nutrition, and pest control. You receive a healthy yield without handling farm work yourself."
         },
         {
             id: 2,
-            question: " What makes Arony farmland investment safe?",
-            answer: "Arony Farm provides properly surveyed and legally approved farmland.You receive 100% clear title and registered ownership in your name.We maintain full transparency in plans, pricing and process. Your investment is secured with Arony Farm's managed model"
+            question: "When will Mango trees start giving income?",
+            answer: "Mango trees typically begin fruiting within 3 to 5 years. Yield increases every season as the orchard matures. Arony Farm monitors growth for consistent productivity."
         },
         {
             id: 3,
-            question: "Do I need farming experience",
-            answer: "No experience is required when you invest with Arony Farm.We take care of plantation, soil care, irrigation and security.You simply visit, enjoy your farm and watch it grow. Arony Farm handles the work, you enjoy the benefits"
+            question: "Which Mango varieties do you use?",
+            answer: "We choose varieties based on taste, yield, and market value. Arony Farm sources grafted saplings from certified nurseries. This ensures quality fruit and strong orchard growth."
         },
         {
             id: 4,
-            question: "Can I build a farmhouse on my plot?",
-            answer: "Yes, all Arony Farm projects are farmhouse-ready.ou can design your weekend stay or vacation home easily.We guide with layout, utilities and construction support. Arony Farm makes your nature-living dream practical and simple"
+            question: "Are Mango trees long-lasting?",
+            answer: "Yes, mango trees can remain productive for 40+ years. This makes your farmland a family legacy asset. Arony Farm ensures the orchard stays healthy across seasons."
         },
         {
             id: 5,
-            question: "How is the plantation maintained?",
-            answer: "Our expert plantation team monitors growth at every stage .Arony Farm manages watering, pruning, nutrition and protection.You receive progress updates from our farm supervision team. Your farm stays healthy and thriving under Arony Farm care."
+            question: "What climate is ideal for Mango cultivation?",
+            answer: "A warm climate with balanced sunlight and moderate rainfall is ideal. Regions like Hampi & Central Karnataka provide perfect conditions. Arony Farm develops farms only in climate-supported zones."
         },
         {
             id: 6,
-            question: "Will I get regular updates?",
-            answer: "Yes, Arony Farm provides timely reports and plantation updates. You stay informed about crop growth, weather and maintenance. We ensure full visibility even if you live in the city. Your farm grows, and you stay connected at every step"
+            question: "Can Mango farming be combined with Sandalwood?",
+            answer: "Yes, Mango + Sandalwood is a popular integrated model. It provides yearly fruit income and long-term tree asset value. Arony Farm designs mixed plantations for balanced returns."
         },
         {
             id: 7,
-            question: "Why choose Arony Farm over other farmland companies?",
-            answer: "Arony Farm combines experience, transparency and real farm expertise. We do not just sell land  we manage it responsibly.Your investment grows in value and greenery together  Arony Farm focuses on long-term sustainability, not just sales."
+            question: "Does Mango require high maintenance?",
+            answer: "Maintenance is moderate when managed properly. Arony Farm handles pruning, irrigation, and orchard health monitoring. Your orchard thrives even if you're not present."
         },
         {
             id: 8,
-            question: "Is Arony Farm suitable for weekend getaways?",
-            answer: "Yes, our projects are in beautiful and peaceful nature zones. You can visit your land anytime to relax and unwind. Fresh air, greenery and quiet surroundings create true calm.  Arony Farm gives you land and peace together."
+            question: "How is the fruit harvest handled?",
+            answer: "Arony Farm manages harvesting, labor, and sorting. We also help connect to wholesale fruit buyers and markets. Your produce is handled professionally for best returns."
         },
         {
             id: 9,
-            question: "What is the long-term benefit of Arony Farm?",
-            answer: "Your farmland grows in value as plantations mature. You receive yearly crop income and future harvest returns. Plus, you own a natural asset for life. Arony Farm creates peace, prosperity and a legacy for your family"
-        }
+            question: "Will I receive yearly income?",
+            answer: "Yes, once the orchard begins fruiting, income is seasonal. The yield usually increases year by year. Arony Farm ensures stable output through proper care."
+        },
+        {
+            id: 10,
+            question: "How does Mango farmland help land value grow?",
+            answer: "As the orchard matures, the land becomes more productive and sought-after. Organic orchard estates appreciate faster than empty land. Arony Farm ensures your land becomes a high-value green asset."
+        },
+        {
+            id: 11,
+            question: "Can I build a farmhouse inside the Mango farm?",
+            answer: "Yes, many owners choose weekend or retirement farmhouses. Arony Farm provides layout planning and construction guidance. Your orchard becomes your personal nature retreat."
+        },
+        {
+            id: 12,
+            question: " Is Mango farming suitable for beginners?",
+            answer: "Yes, especially under managed farmland models like ours. Arony Farm handles the farming  you enjoy the land. No experience or daily involvement is required."
+        },
+        {
+            id: 13,
+            question: "How are pests and diseases managed?",
+            answer: "We use natural, organic-based plant care practices. Arony Farm emphasizes sustainable and chemical-reduced farming. This protects both soil health and fruit quality."
+        },
+        {
+            id: 14,
+            question: "Why invest in Mango farmland now?",
+            answer: "Demand for premium mangoes increases every year in India & abroad. Land near agricultural belts is appreciating steadily. Arony Farm gives you income + nature + long-term asset growth."
+        },
     ];
 
     const toggleFaq = (id) => {
@@ -65,8 +90,8 @@ const Faq = () => {
     };
 
     // Split FAQs into two columns
-    const leftColumnFaqs = faqData.slice(0, 5);
-    const rightColumnFaqs = faqData.slice(5);
+    const leftColumnFaqs = faqData.slice(0, 7);
+    const rightColumnFaqs = faqData.slice(8);
 
     return (
         <div className="bg-neutral-50 py-16 px-4 sm:px-6 lg:px-8">

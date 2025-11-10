@@ -232,7 +232,7 @@ const AboutUs1 = () => {
         "Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.",
     },
     {
-      title: "Arony Mango Farm",
+      title: "Hampi highland - Mango Farm",
       image: layerMain2,
       link: "/project-mango",
       description1:
@@ -259,7 +259,7 @@ const AboutUs1 = () => {
     },
     {
       icon: leafsgrn,
-      value: "500+ Acres",
+      value: "300+ Acres",
       label: "Cultivated organically",
       description:
         "Every acre under Arony Farms is nurtured using 100% natural and chemical-free farming practices.",

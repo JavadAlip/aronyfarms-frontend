@@ -10,54 +10,79 @@ const Faq = () => {
     const faqData = [
         {
             id: 0,
-            question: "Why choose Arony Farm for managed farmland?",
-            answer: "Arony Farm makes farmland ownership simple and stress-free. We provide plantation, irrigation, workforce and complete farm care. You own the land, Arony Farm manages the farming professionally. So you enjoy returns, peace, and nature without daily work."
+            question: "Why is Sandalwood considered a high-value crop?",
+            answer: "Sandalwood is used in perfumes, Ayurveda, spiritual products, and export markets. Its oil and wood prices increase every year. Arony Farm helps you grow Sandalwood for long-term wealth and legacy"
         },
         {
             id: 1,
-            question: "Is Arony Farm a trusted company?",
-            answer: "Arony Farm has transparent documentation and land with clear titles. We offer verified agricultural land in prime farming belts. Our team is experienced in plantation & farm development. Trust, clarity, and long-term value define Arony Farm."
+            question: "Why choose Sandalwood farming with Arony Farm?",
+            answer: "We follow scientific plantation spacing and companion host plants. Our monitored farm model ensures safe and healthy tree development. Arony Farm handles growth, protection, and farm upkeep for you."
         },
         {
             id: 2,
-            question: " What makes Arony farmland investment safe?",
-            answer: "Arony Farm provides properly surveyed and legally approved farmland.You receive 100% clear title and registered ownership in your name.We maintain full transparency in plans, pricing and process. Your investment is secured with Arony Farm's managed model"
+            question: "How long does Sandalwood take to mature?",
+            answer: "Sandalwood trees generally mature in 15–20 years. Value increases every year as the wood gains density and oil. Arony Farm tracks growth to maximize final yield value."
         },
         {
             id: 3,
-            question: "Do I need farming experience",
-            answer: "No experience is required when you invest with Arony Farm.We take care of plantation, soil care, irrigation and security.You simply visit, enjoy your farm and watch it grow. Arony Farm handles the work, you enjoy the benefits"
+            question: "Is Sandalwood farming legal?",
+            answer: "Yes, it is fully legal under state guidelines. Only harvesting and selling require permissions at maturity. Arony Farm manages legal compliance so the process stays smooth."
         },
         {
             id: 4,
-            question: "Can I build a farmhouse on my plot?",
-            answer: "Yes, all Arony Farm projects are farmhouse-ready.ou can design your weekend stay or vacation home easily.We guide with layout, utilities and construction support. Arony Farm makes your nature-living dream practical and simple"
+            question: "Does Sandalwood require special host plants?",
+            answer: "Yes, Sandalwood is semi-parasitic and needs nutrient host plants. Arony Farm plants verified companion varieties to boost root health. This ensures stronger growth and long-term resilience."
         },
         {
             id: 5,
-            question: "How is the plantation maintained?",
-            answer: "Our expert plantation team monitors growth at every stage .Arony Farm manages watering, pruning, nutrition and protection.You receive progress updates from our farm supervision team. Your farm stays healthy and thriving under Arony Farm care."
+            question: "Does Sandalwood farming require daily maintenance?",
+            answer: "Maintenance is needed only in early stages. Arony Farm handles irrigation, trimming, and soil care efficiently. You don’t need to manage anything personally."
         },
         {
             id: 6,
-            question: "Will I get regular updates?",
-            answer: "Yes, Arony Farm provides timely reports and plantation updates. You stay informed about crop growth, weather and maintenance. We ensure full visibility even if you live in the city. Your farm grows, and you stay connected at every step"
+            question: "What climate is ideal for Sandalwood?",
+            answer: "Warm regions with moderate rainfall support its best growth. Hampi and surrounding Karnataka belts match these conditions naturally. Arony Farm selects suitable farmland zones for Sandalwood success."
         },
         {
             id: 7,
-            question: "Why choose Arony Farm over other farmland companies?",
-            answer: "Arony Farm combines experience, transparency and real farm expertise. We do not just sell land  we manage it responsibly.Your investment grows in value and greenery together  Arony Farm focuses on long-term sustainability, not just sales."
+            question: "What returns can Sandalwood provide?",
+            answer: "A matured tree can generate very high market value depending on size. The longer it grows, the more oil content increases. Arony Farm plans harvest timelines for maximum profitability."
         },
         {
             id: 8,
-            question: "Is Arony Farm suitable for weekend getaways?",
-            answer: "Yes, our projects are in beautiful and peaceful nature zones. You can visit your land anytime to relax and unwind. Fresh air, greenery and quiet surroundings create true calm.  Arony Farm gives you land and peace together."
+            question: "How many Sandalwood trees can be planted per acre?",
+            answer: "Tree count varies based on spacing and companion planting. Arony Farm uses optimized plantation patterns for healthy development. This balance improves both quality and long-term return."
         },
         {
             id: 9,
-            question: "What is the long-term benefit of Arony Farm?",
-            answer: "Your farmland grows in value as plantations mature. You receive yearly crop income and future harvest returns. Plus, you own a natural asset for life. Arony Farm creates peace, prosperity and a legacy for your family"
-        }
+            question: "Is Sandalwood prone to theft or damage?",
+            answer: "Security and monitoring are important. Arony Farm provides fencing, supervision, and farm protection measures. Your plantation stays safe throughout its lifecycle."
+        },
+        {
+            id: 10,
+            question: "Can Sandalwood be combined with other crops?",
+            answer: "Yes, especially with Mango or mixed organic crops. This increases early-stage land productivity. Arony Farm specializes in integrated Sandalwood farming models."
+        },
+        {
+            id: 11,
+            question: "Can I visit my Sandalwood farm anytime?",
+            answer: "Yes, you are free to visit your land. Arony Farm projects are easily accessible for weekend trips. You can enjoy nature while watching your trees grow."
+        },
+        {
+            id: 12,
+            question: "Is Sandalwood farming suitable for beginners?",
+            answer: "Yes, because Arony Farm manages the full agricultural process. No farming skill or time commitment is required from your side. Just own the land and enjoy long-term growth."
+        },
+        {
+            id: 13,
+            question: "What makes Sandalwood a good family legacy asset?",
+            answer: "It appreciates continuously and holds emotional, cultural, and financial value. Your family benefits even decades later. Arony Farm supports this as a long-term wealth-building project."
+        },
+        {
+            id: 14,
+            question: "Why should I invest in Sandalwood farmland now?",
+            answer: "Demand is rising while natural Sandalwood supply is decreasing. This creates a strong price advantage for future harvests. Arony Farm helps you secure this opportunity at the right time."
+        },
     ];
 
     const toggleFaq = (id) => {
@@ -65,8 +90,8 @@ const Faq = () => {
     };
 
     // Split FAQs into two columns
-    const leftColumnFaqs = faqData.slice(0, 5);
-    const rightColumnFaqs = faqData.slice(5);
+    const leftColumnFaqs = faqData.slice(0, 7);
+    const rightColumnFaqs = faqData.slice(8);
 
     return (
         <div className="bg-neutral-50 py-16 px-4 sm:px-6 lg:px-8">

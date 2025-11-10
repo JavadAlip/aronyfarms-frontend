@@ -1,6 +1,6 @@
 import React from 'react'
 import leafgrn from "../../assets/leaf-grn.png";
-import ownership1 from "../../assets/ownership1.png";
+import ownership1 from "../../assets/ownership4.png";
 import ownership2 from "../../assets/ownership2.png";
 import ownership3 from "../../assets/ownership3.png";
 

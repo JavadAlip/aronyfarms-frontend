@@ -48,9 +48,15 @@ const Navbar = () => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center hover:text-green-400 text-[16px]">
+              {/* <button className="flex items-center hover:text-green-400 text-[16px]">
                 Projects <Plus size={16} className="ml-1" />
-              </button>
+              </button> */}
+              <Link
+                to="/project-page"
+                className="flex items-center hover:text-green-400 text-[16px]"
+              >
+                Projects <Plus size={16} className="ml-1" />
+              </Link>
 
               {isDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-40 bg-white/90 text-gray-800 rounded-md shadow-lg backdrop-blur-md">
@@ -130,12 +136,13 @@ const Navbar = () => {
           </Link>
 
           {/* Mobile Project Dropdown */}
-          <button
+          <Link
+            to="/project-page"
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             className="w-full flex justify-between items-center px-4 py-2 hover:bg-gray-100"
           >
             Projects <Plus size={16} />
-          </button>
+          </Link>
           {isDropdownOpen && (
             <div className="pl-6">
               {/* <Link
