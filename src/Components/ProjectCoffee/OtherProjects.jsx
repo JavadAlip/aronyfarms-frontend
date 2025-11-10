@@ -20,7 +20,7 @@ const OtherProjects = () => {
       title: "Arony Mango Farm",
       image: otherprjct1,
       description1:
-        "Arony Mango Farm offers investors a rare opportunity to own and profit from managed sandalwood cultivation in India's most sought-after agroforestry corridor.",
+        "Arony Mango Farm offers investors a rare opportunity to own and profit from managed mango cultivation in India's most sought-after agroforestry corridor.",
       description2:
         "Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.",
       link: "/project-mango",

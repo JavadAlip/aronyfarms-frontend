@@ -24,12 +24,13 @@ const ProjectViewMain = () => {
         </h1>
 
         {/* Description */}
-        <p className="text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white max-w-2xl mb-8 sm:mb-9 leading-relaxed">
+        <p className="text-[14px] text-justify sm:text-[15px] md:text-[16px] lg:text-[18px] text-white max-w-2xl mb-8 sm:mb-9 leading-relaxed">
           Arony Sandalwood Farm offers investors a rare opportunity to own and
-          profit from managed sandalwood cultivation in India’s most sought-after
+          profit from managed sandalwood cultivation in India's most sought-after
           agroforestry corridor. Our expert team ensures 100% hassle-free,
           ecologically resilient plantation management and transparent reporting
-          from the day you invest to the day of harvest.
+          from the day you invest to the{" "}
+          <span className="block text-center">day of harvest.</span>
         </p>
 
         {/* Button */}

@@ -24,8 +24,9 @@ const ProjectViewMain = () => {
         </h1>
 
         {/* Description */}
-        <p className="text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] text-white max-w-2xl mb-8 sm:mb-9 leading-relaxed">
-          Arony Coffee Farm offers investors a rare opportunity to own and profit from managed coffee cultivation in India’s most sought-after agroforestry corridor. Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of harvest.
+        <p className="text-[14px] text-justify sm:text-[15px] md:text-[16px] lg:text-[18px] text-white max-w-2xl mb-8 sm:mb-9 leading-relaxed">
+          Arony Coffee Farm offers investors a rare opportunity to own and profit from managed coffee cultivation in India’s most sought-after agroforestry corridor. Our expert team ensures 100% hassle-free, ecologically resilient plantation management and transparent reporting from the day you invest to the day of 
+           <span className="block text-center">harvest.</span>
         </p>
 
         {/* Button */}

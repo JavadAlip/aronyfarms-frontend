@@ -70,7 +70,7 @@ const KeyPillars = () => {
 
             {/* Right - Description */}
             <div className="flex items-center">
-              <p className="text-white text-[16px] font-normal leading-relaxed">
+              <p className="text-white text-[16px]  text-justify font-normal leading-relaxed">
                 Lorem ipsum dolor sit amet consectetur. In tellus amet at elit nibisciada irisque. Non mi viverra turtor habitant. At venenatis nunc eres facilisis imperdis eget non. Elementum cras non sed in laoreet nisl purus blandit. Prina ac pellentesque nam est tempor quis. Venenatis ac consequat consequat habitasse nibh scelerisque.
               </p>
             </div>

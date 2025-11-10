@@ -58,7 +58,7 @@ const Configuration = () => {
               Tailored Plot Sizes to Match Your Investment Goals
             </h2>
 
-            <p className="text-[#585858] text-[14px] sm:text-[15px] md:text-[16px] leading-relaxed">
+            <p className="text-[#585858]  text-justify text-[14px] sm:text-[15px] md:text-[16px] leading-relaxed">
               Arony Sandalwood Farm offers flexible plot size options designed
               to accommodate both first-time investors and seasoned agroforestry
               enthusiasts. Choose the ideal plot size that fits your investment

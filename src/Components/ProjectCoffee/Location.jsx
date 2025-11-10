@@ -49,7 +49,7 @@ const Location = () => {
                             Mango<br />Interactive Map
                         </h3>
 
-                        <p className="text-[#585858] text-[16px] sm:text-[15px] md:text-[16px] leading-relaxed">
+                        <p className="text-[#585858] text-justify text-[16px] sm:text-[15px] md:text-[16px] leading-relaxed">
                             Nestled in Karnataka's sandalwood belt, the estate provides convenient access to highways and is a short drive from Bangalore International Airport, Lepakshi Temple, and key towns.
                         </p>
                     </div>
