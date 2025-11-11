@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import leafgrn from "../../assets/leaf-grn.png";
+import { Globe } from "lucide-react";
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -62,7 +63,7 @@ const GetInTouch = () => {
                 <svg className="w-5 h-5 text-[#CF7A19] mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-[#4BA424] text-[16px] font-medium">14 Tottenham Road, London, England</span>
+                <span className="text-[#4BA424] text-[16px] font-medium">Arony Farms Pvt. Ltd. Block A, 3rd Floor, Cartlon Towers, Indiranagar, Banglalore - 560008</span>
               </div>
 
               {/* Phone */}
@@ -84,6 +85,21 @@ const GetInTouch = () => {
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
                 <span className="text-[#4BA424] text-[16px] font-medium">sales@aronyfarms.com</span>
+              </div>
+
+              {/* Website */}
+              <div className="flex items-start gap-3">
+                {/* Globe Icon */}
+                <Globe className="w-5 h-5 text-[#CF7A19] mt-1 flex-shrink-0" />
+
+                <a
+                  href="https://aronyfarms.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#4BA424] text-[16px] font-medium hover:underline"
+                >
+                  aronyfarms.vercel.app
+                </a>
               </div>
             </div>
           </div>

@@ -17,6 +17,7 @@ import AboutDeveloper from '../Components/ProjectViewPage/AboutDeveloper'
 import OtherProjects from '../Components/ProjectMango/OtherProjects'
 import WorkTogether from '../Components/ProjectViewPage/Together'
 import Faq from '../Components/ProjectMango/Faq'
+import Video from '../Components/ProjectViewPage/Video'
 
 const ProjectMango = () => {
     return (
@@ -26,6 +27,7 @@ const ProjectMango = () => {
             <Location />
             <AreaLayout/>
             <Configration/>
+            <Video/>
             <CropDetails/>
             <Ownership/>
             <Highlights/>
