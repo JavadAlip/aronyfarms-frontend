@@ -17,6 +17,7 @@ import AboutDeveloper from '../Components/ProjectViewPage/AboutDeveloper'
 import OtherProjects from '../Components/ProjectViewPage/OtherProjects'
 import WorkTogether from '../Components/ProjectViewPage/Together'
 import Faq from '../Components/ProjectViewPage/Faq'
+import Video from '../Components/ProjectViewPage/Video'
 
 const ProjectSandalwood = () => {
     return (
@@ -26,6 +27,7 @@ const ProjectSandalwood = () => {
             <Location />
             <AreaLayout />
             <Configration />
+            <Video/>
             <CropDetails />
             <Ownership />
             <Highlights />
