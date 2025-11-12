@@ -29,7 +29,6 @@ const Home = () => {
       <WorkTogether/>
       <Faq/>
       <Footer/>
-      
     </div>
   )
 }
