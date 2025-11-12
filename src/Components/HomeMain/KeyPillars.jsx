@@ -29,6 +29,7 @@ const KeyPillars = () => {
         'Beyond profits, Hasiru Farms is committed to reforesting barren lands, reviving traditional farming practices, and restoring biodiversity, ensuring your investment nurtures both the environment and heritage.',
     },
   ];
+  
 
   return (
     <div className="relative min-h-screen w-full">
@@ -75,6 +76,7 @@ const KeyPillars = () => {
               </p>
             </div>
           </div>
+
 
           {/* Pillars Section */}
           <div className="grid gap-6">
